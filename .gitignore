@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+
+# Python
+__pycache__/
+*.egg-info/
+*.pyc
+
+# Hydra Output
+outputs/
+
+# Proprietary Data
+data/*
+!data/.gitkeep
