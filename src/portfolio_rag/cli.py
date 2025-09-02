@@ -5,6 +5,7 @@ load_dotenv()
 
 import hydra
 from omegaconf import DictConfig
+
 from .app import ChatApp
 
 

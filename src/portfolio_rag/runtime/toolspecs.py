@@ -34,13 +34,13 @@ def _custom_tool(tool: DictConfig):
     return {"type": "custom", "name": tool.name, "description": tool.description}
 
 
-def load_toolspecs(cfg: DictConfig):
+def load_toolspecs(cfg: DictConfig) -> list:
     """Load tool specifications from the configuration.
 
     Args:
         cfg (DictConfig): The configuration object.
 
     Returns:
-        List[ToolParams]: A list of tool specifications.
+        list: A list of tool specifications.
     """
     return [_tool_from_config(tool) for tool in cfg.tools.tools]

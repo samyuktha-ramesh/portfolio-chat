@@ -1,4 +1,5 @@
 from omegaconf import DictConfig
+
 from .runtime.session import ChatSession
 from .ui.rich_ui import UI
 
@@ -41,14 +42,14 @@ class ChatApp:
                         writer(token)
 
                     def on_tool_start(token: str):
-                        writer("\nCalling Tool: ", style="highlight")
-                        writer(token + "(", style="function")
+                        writer("Calling Tool: ", style="highlight")
+                        writer(token + "\n", style="function")
 
                     def on_tool_args(args: str):
                         writer(args, style="function_args")
 
                     def on_tool_request():
-                        writer(")", style="function")
+                        writer("\n", style="function")
 
                     def on_tool_output(response: str):
                         writer("\nOutput: ", style="highlight")
