@@ -1,5 +1,4 @@
 tools:
   - name: query_portfolio_analyst
-    description: >
-      This tool queries the portfolio analyst agent who can retrieve and process data from the portfolio database.
+    description: This tool queries the portfolio analyst agent who can retrieve and process data from the portfolio database.
     type: custom
