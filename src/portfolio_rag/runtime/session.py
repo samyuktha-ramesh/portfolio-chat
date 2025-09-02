@@ -1,11 +1,13 @@
 import json
-from typing import Any, Dict, Callable, List
+from collections.abc import Callable
+from contextlib import ExitStack
+from typing import Any
 
 from omegaconf import DictConfig
 from openai import OpenAI
 
-from .toolspecs import load_toolspecs
 from ..tools.orchestrator import orchestrate
+from .toolspecs import load_toolspecs
 
 
 class ChatSession:
@@ -24,7 +26,7 @@ class ChatSession:
         self.gen_kwargs = cfg.model.get("generation_kwargs", {})
         self.tools = load_toolspecs(cfg)
 
-        self.history: List[Dict[str, Any]] = []
+        self.history = []
         if getattr(cfg.prompts, "system", None):
             self.history.append({"role": "system", "content": cfg.prompts.system})
 
@@ -37,75 +39,72 @@ class ChatSession:
         on_tool_request: Callable[[], None],
         on_tool_output: Callable[[str], None],
         spinner_cm,
-    ) -> str:
+    ):
         """Queries the OpenAI API with the given prompt.
 
         Args:
             prompt (str): The user prompt to send to the API.
-             (Callable[[str], None]): A callback function to handle streaming tokens.
+            on_text (Callable[[str], None]): A callback function to handle streaming tokens.
             on_tool_start (Callable[[str], None]): A callback function to handle tool start events.
             on_tool_args (Callable[[str], None]): A callback function to handle tool arguments.
             on_tool_request (Callable[[], None]): A callback function to handle tool requests.
             on_tool_output (Callable[[str], None]): A callback function to handle tool responses.
             spinner_cm: A context manager for managing the spinner.
-        Returns:
-            str: The API response.
         """
         self.history.append({"role": "user", "content": prompt})
-
+        stack = ExitStack()
         while True:
             with self.client.responses.stream(
                 model=self.model,
-                input=self.history,  # type: ignore
-                tools=self.tools,  # type: ignore
+                input=self.history,
+                tools=self.tools,
                 **self.gen_kwargs,
             ) as stream:
-                tool_calls = 0
-                assistant_message = ""
-
+                tool_outputs = []
                 for event in stream:
                     match event.type:
                         case "response.output_text.delta":
                             on_text(event.delta)
 
-                        case "response.output_text.done":
-                            assistant_message = event.text
-                            self.history.append(
-                                {"role": "assistant", "content": assistant_message}
-                            )
-
                         case "response.output_item.added":
+                            if event.item.type == "reasoning":
+                                stack.enter_context(spinner_cm("Thinking...."))
+
                             if event.item.type == "function_call":
                                 on_tool_start(event.item.name)
                                 on_tool_args(event.item.arguments)
-                                tool_calls += 1
 
-                            if event.item.type == "custom_tool_call_input":
+                            if event.item.type == "custom_tool_call":
                                 on_tool_start(event.item.name)
-                                on_tool_args(event.item.arguments)
-                                tool_calls += 1
+                                on_tool_args(event.item.input)
 
                         case "response.output_item.done":
+                            if event.item.type == "reasoning":
+                                stack.close()
+
                             if event.item.type == "function_call":
                                 on_tool_request()
                                 function_call_args = json.loads(event.item.arguments)
-                                self.call_tool(
+                                _, out = self.call_tool(
                                     event.item.name,
-                                    event.item.id or "",
+                                    event.item.call_id,
                                     spinner_context=spinner_cm,
                                     on_tool_output=on_tool_output,
                                     **function_call_args,
                                 )
+                                tool_outputs.append(out)
 
-                            if event.item.type == "custom_tool_call_output":
-                                self.call_tool(
+                            if event.item.type == "custom_tool_call":
+                                on_tool_request()
+                                _, out = self.call_tool(
                                     event.item.name,
-                                    event.item.id,
+                                    event.item.call_id,
                                     custom=True,
                                     spinner_context=spinner_cm,
-                                    query=event.item.text,
+                                    query=event.item.input,
                                     on_tool_output=on_tool_output,
                                 )
+                                tool_outputs.append(out)
 
                         case "response.custom_tool_call_input.delta":
                             on_tool_args(event.delta)
@@ -113,8 +112,10 @@ class ChatSession:
                         case "response.function_call_arguments.delta":
                             on_tool_args(event.delta)
 
-                if tool_calls == 0:
-                    return assistant_message
+            self.history += stream.get_final_response().output
+            if not tool_outputs:
+                return
+            self.history.extend(tool_outputs)
 
     def call_tool(
         self,
@@ -124,7 +125,7 @@ class ChatSession:
         on_tool_output: Callable[[str], None],
         custom: bool = False,
         **kwargs: Any,
-    ) -> str:
+    ) -> tuple[str, dict]:
         """Calls a tool with the given name and arguments.
 
         Args:
@@ -138,13 +139,13 @@ class ChatSession:
         Returns:
             Dict[str, Any]: The tool's response to be appended to the history.
         """
-        result = orchestrate(tool_name, spinner_context=spinner_context, **kwargs)
-        self.history.append(
-            {
-                "type": "custom_tool_call_output" if custom else "tool_call_output",
-                "call_id": tool_id,
-                "output": result,
-            }
+        result = orchestrate(
+            tool_name, self.cfg, spinner_context=spinner_context, **kwargs
         )
+        history_item = {
+            "type": "custom_tool_call_output" if custom else "tool_call_output",
+            "call_id": tool_id,
+            "output": result,
+        }
         on_tool_output(result)
-        return result
+        return result, history_item

@@ -1,10 +1,10 @@
-import logging
 from typing import Any
 
-logger = logging.getLogger(__name__)
+from omegaconf import DictConfig
+
+from portfolio_rag.agents.codeagent import codeagent
 
 
-def orchestrate(function: str, spinner_context, **kwargs: Any) -> Any:
+def orchestrate(function: str, cfg: DictConfig, spinner_context, **kwargs: Any) -> str:
     with spinner_context("Analyzing..."):
-        logger.info(f"Orchestrating function: {function} with kwargs: {kwargs}")
-    return "Hello, World!"
+        return codeagent(cfg, **kwargs)

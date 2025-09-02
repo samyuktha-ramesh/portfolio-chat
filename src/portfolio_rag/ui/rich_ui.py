@@ -1,12 +1,13 @@
 from contextlib import contextmanager
+
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
-from rich.console import Console, Group
-from rich.theme import Theme
-from rich.panel import Panel
+from rich.console import Console, Group, RenderableType
 from rich.live import Live
+from rich.panel import Panel
 from rich.spinner import Spinner
 from rich.text import Text
+from rich.theme import Theme
 
 
 class UI:
@@ -28,8 +29,10 @@ class UI:
     def banner(self, msg: str) -> None:
         self.console.print(msg, style="banner")
 
-    def assistant(self, text: str, print: bool = True) -> Panel:
-        panel = Panel(text, title="Assistant", border_style="cyan", title_align="left")
+    def assistant(self, content: RenderableType, print: bool = True) -> Panel:
+        panel = Panel(
+            content, title="Assistant", border_style="cyan", title_align="left"
+        )
         if print:
             self.console.print(panel)
         return panel
@@ -42,29 +45,25 @@ class UI:
         """Context manager yielding a write(delta) fn that live-updates a panel."""
         text = Text()
         spinner = Spinner("dots")
-        busy = False
 
-        panel: Panel = self.assistant("", print=False)
+        panel = self.assistant(Group(text), print=False)
 
-        def current_renderable():
-            return Group(text, spinner) if busy else text
-
-        with Live(panel, console=self.console, refresh_per_second=24):
+        with Live(panel, console=self.console, refresh_per_second=24) as live:
 
             def write(delta: str, style: str | None = None):
                 text.append(delta, style=style)
-                panel.renderable = current_renderable()
 
             @contextmanager
-            def spinner_cm(text: str):
-                nonlocal busy
-                busy = True
-                panel.renderable = current_renderable()
-                spinner.text = Text(text, style="highlight")
+            def spinner_cm(msg: str):
+                spinner.text = Text(msg, style="highlight")
+                panel.renderable = (
+                    Group(text, spinner) if text.plain else Group(spinner)
+                )
+                live.update(panel, refresh=True)
                 try:
                     yield
                 finally:
-                    busy = False
-                    panel.renderable = current_renderable()
+                    panel.renderable = Group(text)
+                    live.update(panel, refresh=True)
 
             yield write, spinner_cm
