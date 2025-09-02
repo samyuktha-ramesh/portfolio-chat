@@ -2,6 +2,9 @@
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
+[project.urls]
+github = "https://github.com/samyukth-aramesh/pwc-portfolio-rag"
+
 [project]
 name = "portfolio-rag"
 version = "0.1.0"
@@ -24,6 +27,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "mypy>=1.17.1",
     "pre-commit>=4.3.0",
     "pytest>=8.4.1",
     "pytest-cov>=6.2.1",
@@ -42,3 +46,21 @@ where = ["src"]
 
 [project.scripts]
 portfolio-chat = "portfolio_rag.cli:main"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]  # basics: style, flakes, isort, pyupgrade, bugbear
+ignore = ["E501"]                    # let the formatter handle wrapping
+
+[tool.ruff.lint.isort]
+known-first-party = ["vl_saliency"]
+
+[tool.mypy]
+python_version = "3.11"
+files = ["src", "tests"]
+exclude = ["\\.venv", "env", "build", "dist"]
+follow_imports = "skip"  # don't analyze third-party libs
+ignore_missing_imports = true
