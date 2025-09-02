@@ -4,9 +4,9 @@ Modern Large Language Models (LLMs) are extremely capable of creative tasks and 
 
 This repository contains a robust framework for retrieving and processing tabular data to enhance the capabilities of LLMs. We introduce `portfolio-rag`, a specialized tool for working with tabular portfolio data. However, this approach generalizes to all tabular data use cases. Developed as part of the [ETH Zurich FinsureTech Hub Innovation Project](https://finsuretech.ethz.ch/continuing-education/cas-ml-in-finance-and-insurance/innovation-projects.html) in collaboration with [PwC Switzerland](https://www.pwc.ch/).
 
-## Installation`
+## Installation
 
-1. To install the necessary dependencies, you recommend [uv](https://docs.astral.sh/uv/)
+1. To install the necessary dependencies, we recommend [uv](https://docs.astral.sh/uv/)
 
     ```bash
     pip install uv
@@ -45,7 +45,7 @@ The following commands are available:
 /quit: Exits the chat.
 ```
 
-## Basic Pipeline:
+## Basic Pipeline
 1. Orchestrator 
     - Plans out how to respond to the queries
     - Has access to "retrieve_data" tool
