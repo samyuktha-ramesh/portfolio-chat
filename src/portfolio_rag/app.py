@@ -40,28 +40,19 @@ class ChatApp:
                     def on_text(token: str):
                         writer(token)
 
-                    first_arg = True
-
                     def on_tool_start(token: str):
                         writer("\nCalling Tool: ", style="highlight")
                         writer(token + "(", style="function")
-                        nonlocal first_arg
-                        first_arg = True
 
                     def on_tool_args(args: str):
-                        nonlocal first_arg
-                        if first_arg:
-                            writer(args, style="function_args")
-                            first_arg = False
-                        else:
-                            writer(f", {args}", style="function_args")
+                        writer(args, style="function_args")
 
                     def on_tool_request():
                         writer(")", style="function")
 
                     def on_tool_output(response: str):
                         writer("\nOutput: ", style="highlight")
-                        writer(response)
+                        writer(response + "\n")
 
                     self.session.query(
                         text,
