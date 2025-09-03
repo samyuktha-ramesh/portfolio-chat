@@ -20,3 +20,4 @@ codeagent:
         Task:
         - Use pandas with encoding latin1 to load these CSVs. Example: pd.read_csv(file, encoding='latin1')
         - Perform the necessary joins or transformations to answer the user's query.
+        - Return the final answer in a clear, human-readable format.
