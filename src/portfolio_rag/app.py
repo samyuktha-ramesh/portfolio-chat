@@ -44,6 +44,7 @@ class ChatApp:
                     def on_tool_start(token: str):
                         writer("Calling Tool: ", style="highlight")
                         writer(token + "\n", style="function")
+                        writer("Agent Query: ", style="highlight")
 
                     def on_tool_args(args: str):
                         writer(args, style="function_args")
@@ -53,7 +54,7 @@ class ChatApp:
 
                     def on_tool_output(response: str):
                         writer("\nOutput: ", style="highlight")
-                        writer(response + "\n")
+                        writer(response + "\n", style="function_args")
 
                     self.session.query(
                         text,
