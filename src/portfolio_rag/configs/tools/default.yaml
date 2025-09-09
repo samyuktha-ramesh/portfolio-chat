@@ -1,4 +1,8 @@
 tools:
   - name: query_portfolio_analyst
-    description: This tool queries the portfolio analyst agent who can retrieve and process data from the portfolio database.
+    description: Call the portfolio analyst agent (a smolagents CodeAgent) that retrieves and processes data from the portfolio database.
+    type: custom
+
+  - name: finance_qa
+    description: This tool queries the finance QA LLM who can answer general finance-related questions.
     type: custom
