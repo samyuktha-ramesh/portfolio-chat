@@ -7,4 +7,8 @@ from portfolio_rag.agents.codeagent import codeagent
 
 def orchestrate(function: str, cfg: DictConfig, spinner_context, **kwargs: Any) -> str:
     with spinner_context("Analyzing..."):
-        return codeagent(cfg, **kwargs)
+        match function:
+            case "query_portfolio_analyst":
+                return codeagent(cfg, **kwargs)
+            case _:
+                raise ValueError(f"Unknown function: {function}")

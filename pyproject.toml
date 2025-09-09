@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
-github = "https://github.com/samyukth-aramesh/pwc-portfolio-rag"
+github = "https://github.com/samyuktha-ramesh/pwc-portfolio-rag"
 
 [project]
 name = "portfolio-rag"
