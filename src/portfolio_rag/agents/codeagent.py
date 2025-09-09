@@ -2,7 +2,7 @@ from omegaconf import DictConfig
 from smolagents import CodeAgent, OpenAIModel
 
 
-def codeagent(cfg: DictConfig, query: str) -> str:
+def run_codeagent(cfg: DictConfig, system_prompt: str, query: str) -> str:
     model = OpenAIModel(model_id=cfg.model.name, api_key=cfg.model.api_key)
     agent = CodeAgent(
         tools=[],
@@ -10,5 +10,5 @@ def codeagent(cfg: DictConfig, query: str) -> str:
         add_base_tools=True,
         additional_authorized_imports=["pandas"],
     )
-    response = agent.run(cfg.agents.codeagent.session_prompt + f" Query: {query}")
+    response = agent.run(system_prompt + f" Query: {query}")
     return str(response)

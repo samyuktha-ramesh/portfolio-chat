@@ -6,7 +6,7 @@ from typing import Any
 from omegaconf import DictConfig
 from openai import OpenAI
 
-from ..tools.orchestrator import orchestrate
+from .orchestrator import orchestrate
 from .toolspecs import load_toolspecs
 
 
@@ -27,8 +27,8 @@ class ChatSession:
         self.tools = load_toolspecs(cfg)
 
         self.history = []
-        if getattr(cfg.prompts, "system", None):
-            self.history.append({"role": "system", "content": cfg.prompts.system})
+        if getattr(cfg, "system_prompt", None):
+            self.history.append({"role": "system", "content": cfg.system_prompt})
 
     def query(
         self,
@@ -53,7 +53,7 @@ class ChatSession:
         """
         self.history.append({"role": "user", "content": prompt})
         stack = ExitStack()
-        while True:
+        for _ in range(self.cfg.max_retries):
             with self.client.responses.stream(
                 model=self.model,
                 input=self.history,
@@ -116,6 +116,9 @@ class ChatSession:
             if not tool_outputs:
                 return
             self.history.extend(tool_outputs)
+
+        else:  # Max retries exceeded
+            on_text(self.cfg.max_retries_exceeded_message)
 
     def call_tool(
         self,

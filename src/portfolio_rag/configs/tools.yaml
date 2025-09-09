@@ -1,0 +1,46 @@
+# @package tools
+
+query_portfolio_analyst:
+  description: This tool queries the portfolio analyst agent who can retrieve and process data from the portfolio database.
+  type: custom
+  backend:
+    engine: codeagent
+    system_prompt: |
+      You have access to the following CSV files:
+
+      1. Clients.csv (`path: data/2025-06-30_Clients.csv)  
+      Columns: [ClientID, LastName, FirstName, Income, ClientType]
+
+      2. Collateral.csv (path: data/2025-06-30_Collateral.csv)  
+      Columns: [CollateralID, PropertyMarketValue, PropertyMarketValue_CCY, PropertyType, PropertyAddressCountry, PropertyAddressPostalCodeCity, PropertyAddressStreet, PropertyAddressStreetNumber]
+
+      3. Loans.csv (path: data/2025-06-30_Loans.csv)  
+      Columns: [ClientID, CollateralID, LoanClass, Type, Exposure, ExposureCCY, LGD, Rating, Maturity]
+
+      4. RatingScale.csv (path: data/RatingScale.csv)  
+      Columns: [Rating, Lower Bound PD, Upper Bound PD, Midpoint PD]
+
+      - Always write and execute Python code with pandas to answer queries.
+      - Do not reply with a final_answer until you have executed the necessary code.
+      - Assume the CSV files exist at the given paths and can be loaded with pandas.read_csv.
+      Task:
+      - Use pandas with encoding latin1 to load these CSVs. Example: pd.read_csv(file, encoding='latin1')
+      - Perform the necessary joins or transformations to answer the user's query.
+      - Return the final answer in a clear, human-readable format.
+
+
+finance_qa:
+  description: This tool queries the finance QA LLM who can answer general finance-related questions.
+  type: custom
+  backend: 
+    engine: websearch_qa
+    system_prompt: >
+      You are a financial assistant. You can explain financial concepts, market trends, instruments, 
+      and provide context on news. When useful, you may search the web for up-to-date information, 
+      but keep your answers grounded in finance and clearly separate between general knowledge and live data.
+
+
+stress_test:
+  description: This tool performs stress testing on the portfolio to evaluate its performance under extreme market conditions.
+  type: custom
+  backend: stress_test

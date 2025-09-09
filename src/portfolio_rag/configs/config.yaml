@@ -1,6 +1,6 @@
 defaults:
   - _self_
+  - tools
+  - chat
   - model: gpt-5
-  - tools: default
-  - prompts: default
-  - agents: default
+  

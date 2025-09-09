@@ -7,8 +7,6 @@ import hydra
 from omegaconf import DictConfig
 
 from .app import ChatApp
-from .agents.codeagent import codeagent
-from .tools.finance_qa import finance_qa
 
 
 @hydra.main(config_path="configs", config_name="config", version_base="1.3")

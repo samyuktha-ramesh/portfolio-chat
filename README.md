@@ -45,28 +45,6 @@ The following commands are available:
 /quit: Exits the chat.
 ```
 
-## Basic Pipeline
-1. Orchestrator 
-    - Plans out how to respond to the queries
-    - Has access to "retrieve_data" tool
-        - "retrieve_data(input: str) -> Any"
-        - input should be minimal: retrieves a single piece of data
-
-Retrieve data:
-1. Decide if RAG necessary
-    - aka retrieve csv files that are necessary (or None)
-    - output: list of csv files
-    - open questions: 
-        - needs to be scalable: can't just give it every csv
-        - how does cursor do it? maybe vectorize documents? just columns?
-2. If len(relevant_files > 0):
-    2.0. Preprocess agent
-        - Optional ?
-        - Potentially: Performs joins
-        - Potentially: Returns list of relevant cols for query agent.
-    2.1. Directly perform Pandas (or SQL) query(s)
-    2.2. Return output
-
 ## Configuration
 
 This project uses `Hydra` for configuration management. Please refer to the [Hydra documentation](https://hydra.cc/docs/intro/) for more information on how to configure your application. The configuration files are located in the `src\portfolio_rag\configs` directory.
