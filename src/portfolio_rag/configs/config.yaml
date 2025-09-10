@@ -3,4 +3,8 @@ defaults:
   - tools
   - chat
   - model: gpt-5
-  
+
+hydra:
+  job_logging:
+    root:
+      handlers: [file]
