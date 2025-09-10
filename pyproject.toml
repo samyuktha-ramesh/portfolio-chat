@@ -57,7 +57,7 @@ select = ["E", "F", "I", "UP", "B"]  # basics: style, flakes, isort, pyupgrade, 
 ignore = ["E501"]                    # let the formatter handle wrapping
 
 [tool.ruff.lint.isort]
-known-first-party = ["vl_saliency"]
+known-first-party = ["portfolio_rag"]
 
 [tool.mypy]
 python_version = "3.11"

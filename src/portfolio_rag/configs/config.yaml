@@ -2,7 +2,7 @@ defaults:
   - _self_
   - tools
   - chat
-  - model: gpt-5
+  - model: gpt-5-nano
 
 hydra:
   job_logging:
