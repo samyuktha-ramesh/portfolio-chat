@@ -29,7 +29,7 @@ def run_codeagent(cfg: DictConfig, system_prompt: str, query: str) -> str:
         tools=[],
         model=model,
         add_base_tools=True,
-        additional_authorized_imports=["pandas"],
+        additional_authorized_imports=["csv", "pandas", "pgeocode"],
         logger=logger,
     )
     response = agent.run(system_prompt + f" Query: {query}")

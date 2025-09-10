@@ -1,7 +1,7 @@
 # @package tools
 
 query_portfolio_analyst:
-  description: This tool queries the portfolio analyst agent who can retrieve and process data from the portfolio database.
+  description: This tool queries the portfolio analyst agent who can process data from the portfolio database.
   type: custom
   backend:
     engine: codeagent
@@ -26,7 +26,8 @@ query_portfolio_analyst:
       Task:
       - Use pandas with encoding latin1 to load these CSVs. Example: pd.read_csv(file, encoding='latin1')
       - Perform the necessary joins or transformations to answer the user's query.
-      - Return the final answer in a clear, human-readable format.
+      - Return the final answer in a clear, human-readable format that answers the question. Don't return additional data unless asked.
+      - If the user requests properties and the result contains more than 10 entries, generate a CSV file with the relevant data instead of returning the full list. Save the file to data/outputs (folder already exists), then return the file path along with summary statistics.
 
 
 finance_qa:
