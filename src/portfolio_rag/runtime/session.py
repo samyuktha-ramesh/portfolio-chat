@@ -146,7 +146,7 @@ class ChatSession:
             tool_name, self.cfg, spinner_context=spinner_context, **kwargs
         )
         history_item = {
-            "type": "custom_tool_call_output" if custom else "tool_call_output",
+            "type": "custom_tool_call_output" if custom else "function_call_output",
             "call_id": tool_id,
             "output": result,
         }
