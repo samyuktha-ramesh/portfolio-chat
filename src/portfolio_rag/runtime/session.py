@@ -1,7 +1,7 @@
 import json
-from collections.abc import Callable
-from contextlib import ExitStack
-from typing import Any
+from collections.abc import Generator
+from contextlib import ExitStack, nullcontext
+from typing import Any, Literal
 
 from omegaconf import DictConfig
 from openai import OpenAI
@@ -31,15 +31,8 @@ class ChatSession:
             self.history.append({"role": "system", "content": cfg.system_prompt})
 
     def query(
-        self,
-        prompt: str,
-        on_text: Callable[[str], None],
-        on_tool_start: Callable[[str], None],
-        on_tool_args: Callable[[str], None],
-        on_tool_request: Callable[[], None],
-        on_tool_output: Callable[[str], None],
-        spinner_cm,
-    ):
+        self, prompt: str, spinner_cm=None
+    ) -> Generator[tuple[str, str] | Literal["on_tool_request"], None, None]:
         """Queries the OpenAI API with the given prompt.
 
         Args:
@@ -51,6 +44,7 @@ class ChatSession:
             on_tool_output (Callable[[str], None]): A callback function to handle tool responses.
             spinner_cm: A context manager for managing the spinner.
         """
+        spinner_cm = spinner_cm or nullcontext
         self.history.append({"role": "user", "content": prompt})
         stack = ExitStack()
         for _ in range(self.cfg.max_retries):
@@ -64,68 +58,67 @@ class ChatSession:
                 for event in stream:
                     match event.type:
                         case "response.output_text.delta":
-                            on_text(event.delta)
+                            yield "on_text", event.delta
 
                         case "response.output_item.added":
                             if event.item.type == "reasoning":
                                 stack.enter_context(spinner_cm("Thinking...."))
 
                             if event.item.type == "function_call":
-                                on_tool_start(event.item.name)
-                                on_tool_args(event.item.arguments)
+                                yield "on_tool_start", event.item.name
+                                yield "on_tool_args", event.item.arguments
 
                             if event.item.type == "custom_tool_call":
-                                on_tool_start(event.item.name)
-                                on_tool_args(event.item.input)
+                                yield "on_tool_start", event.item.name
+                                yield "on_tool_args", event.item.input
 
                         case "response.output_item.done":
                             if event.item.type == "reasoning":
                                 stack.close()
 
                             if event.item.type == "function_call":
-                                on_tool_request()
+                                yield "on_tool_request"
                                 function_call_args = json.loads(event.item.arguments)
-                                _, out = self.call_tool(
+                                result, out = self._call_tool(
                                     event.item.name,
                                     event.item.call_id,
                                     spinner_context=spinner_cm,
-                                    on_tool_output=on_tool_output,
                                     **function_call_args,
                                 )
+                                yield "on_tool_output", result
                                 tool_outputs.append(out)
 
                             if event.item.type == "custom_tool_call":
-                                on_tool_request()
-                                _, out = self.call_tool(
+                                yield "on_tool_request"
+                                result, out = self._call_tool(
                                     event.item.name,
                                     event.item.call_id,
                                     custom=True,
                                     spinner_context=spinner_cm,
                                     query=event.item.input,
-                                    on_tool_output=on_tool_output,
                                 )
+                                yield "on_tool_output", result
                                 tool_outputs.append(out)
 
                         case "response.custom_tool_call_input.delta":
-                            on_tool_args(event.delta)
+                            yield "on_tool_args", event.delta
 
                         case "response.function_call_arguments.delta":
-                            on_tool_args(event.delta)
+                            yield "on_tool_args", event.delta
 
             self.history += stream.get_final_response().output
             if not tool_outputs:
-                return
+                break
             self.history.extend(tool_outputs)
 
         else:  # Max retries exceeded
-            on_text(self.cfg.max_retries_exceeded_message)
+            yield "on_text", self.cfg.max_retries_exceeded_message
 
-    def call_tool(
+    def _call_tool(
         self,
         tool_name: str,
         tool_id: str,
         spinner_context,
-        on_tool_output: Callable[[str], None],
         custom: bool = False,
         **kwargs: Any,
     ) -> tuple[str, dict]:
@@ -150,5 +143,4 @@ class ChatSession:
             "call_id": tool_id,
             "output": result,
         }
-        on_tool_output(result)
         return result, history_item
