@@ -32,7 +32,11 @@ class ChatSession:
 
     def query(
         self, prompt: str, spinner_cm=None
-    ) -> Generator[tuple[str, str] | Literal["on_tool_request"], None, None]:
+    ) -> Generator[
+        tuple[str, str] | Literal["on_tool_request"] | Literal["on_reasoning"],
+        None,
+        None,
+    ]:
         """Queries the OpenAI API with the given prompt.
 
         Args:
@@ -62,6 +66,7 @@ class ChatSession:
 
                         case "response.output_item.added":
                             if event.item.type == "reasoning":
+                                yield "on_reasoning"
                                 stack.enter_context(spinner_cm("Thinking...."))
 
                             if event.item.type == "function_call":

@@ -7,14 +7,14 @@ from smolagents.monitoring import AgentLogger
 logger = None
 
 
-def init_logger():
+def init_logger(wd: str | None = None):
     global logger
     if logger is None:
-        hydra_wd = hydra.core.hydra_config.HydraConfig.get().runtime.output_dir  # type: ignore
+        wd = wd or hydra.core.hydra_config.HydraConfig.get().runtime.output_dir  # type: ignore
         logger = AgentLogger(
             console=Console(
                 file=open(
-                    f"{hydra_wd}/codeagent.log", "a", encoding="utf-8", errors="replace"
+                    f"{wd}/codeagent.log", "a", encoding="utf-8", errors="replace"
                 ),
                 force_terminal=False,
                 width=120,
@@ -23,13 +23,13 @@ def init_logger():
 
 
 def run_codeagent(cfg: DictConfig, system_prompt: str, query: str) -> str:
-    init_logger()
+    init_logger(cfg.get("working_dir", None))
     model = OpenAIModel(model_id=cfg.model.name, api_key=cfg.model.api_key)
     agent = CodeAgent(
         tools=[],
         model=model,
         add_base_tools=True,
-        additional_authorized_imports=["csv", "pandas", "pgeocode"],
+        additional_authorized_imports=["csv", "pandas", "pgeocode", "numpy"],
         logger=logger,
     )
     response = agent.run(system_prompt + f" Query: {query}")

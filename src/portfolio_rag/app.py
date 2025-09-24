@@ -43,6 +43,8 @@ class ChatApp:
                         if out == "on_tool_request":
                             writer("\n", style="function")
                             continue
+                        if out == "on_reasoning":
+                            continue
                         event_type, token = out
                         match event_type:
                             case "on_text":
