@@ -18,12 +18,16 @@ def _function_tool(tool: str, params: DictConfig):
             "properties": {
                 param.name: {"type": param.type, "description": param.description}
                 for param in params.parameters
-            },
+            }
+            if "parameters" in params
+            else {},
             "required": [
                 param.name
                 for param in params.parameters
                 if getattr(param, "required", False)
-            ],
+            ]
+            if "parameters" in params
+            else [],
             "additionalProperties": False,
         },
         "strict": True,

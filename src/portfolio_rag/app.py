@@ -37,34 +37,27 @@ class ChatApp:
                     continue
 
                 with self.ui.stream_assistant() as (writer, spinner_cm):
-
-                    def on_text(token: str):
-                        writer(token)
-
-                    def on_tool_start(token: str):
-                        writer("Calling Tool: ", style="highlight")
-                        writer(token + "\n", style="function")
-                        writer("Agent Query: ", style="highlight")
-
-                    def on_tool_args(args: str):
-                        writer(args, style="function_args")
-
-                    def on_tool_request():
-                        writer("\n", style="function")
-
-                    def on_tool_output(response: str):
-                        writer("\nOutput: ", style="highlight")
-                        writer(response + "\n", style="function_args")
-
-                    self.session.query(
-                        text,
-                        on_text=on_text,
-                        on_tool_start=on_tool_start,
-                        on_tool_args=on_tool_args,
-                        on_tool_request=on_tool_request,
-                        on_tool_output=on_tool_output,
-                        spinner_cm=spinner_cm,
-                    )
+                    for out in self.session.query(text, spinner_cm=spinner_cm):
+                        if not out:
+                            continue
+                        if out == "on_tool_request":
+                            writer("\n", style="function")
+                            continue
+                        if out == "on_reasoning":
+                            continue
+                        event_type, token = out
+                        match event_type:
+                            case "on_text":
+                                writer(token)
+                            case "on_tool_start":
+                                writer("Calling Tool: ", style="highlight")
+                                writer(token + "\n", style="function")
+                                writer("Agent Query: ", style="highlight")
+                            case "on_tool_args":
+                                writer(token, style="function_args")
+                            case "on_tool_output":
+                                writer("\nOutput: ", style="highlight")
+                                writer(token + "\n", style="function_args")
 
             except (KeyboardInterrupt, EOFError):
                 self.ui.assistant("Bye!")

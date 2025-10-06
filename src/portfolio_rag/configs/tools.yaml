@@ -45,3 +45,22 @@ stress_test:
   description: This tool performs stress testing on the portfolio to evaluate its performance under extreme market conditions.
   type: custom
   backend: stress_test
+
+top_headlines:
+  description: Fetches top financial and business news headlines.
+  type: function
+  backend:
+    engine: callable
+    callable:
+      _target_: portfolio_rag.tools.websearch.top_headlines
+      api_key: ${oc.env:GNEWS_API_KEY}
+      category: business
+
+web_search:
+  description: Keyword-based web search for relevant news articles. Use less than 3 keywords for best results.
+  type: custom
+  backend:
+    engine: callable
+    callable:
+      _target_: portfolio_rag.tools.websearch.webquery
+      api_key: ${oc.env:GNEWS_API_KEY}
