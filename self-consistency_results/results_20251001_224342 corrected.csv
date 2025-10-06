@@ -1,0 +1,638 @@
+N,n,C,Q,A,agent_answer,extracted_number,Correct
+1,1,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the three largest loans is 11503415.92.,11503415.92,True
+2,2,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92.,11503415.92,True
+3,3,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans: 11503415.92,11503415.92,True
+4,4,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92.,11503415.92,True
+5,5,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+6,6,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+7,7,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+8,8,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+9,9,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92.,11503415.92,True
+10,10,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+11,11,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is 3,550,000.0.",3550000.0,False
+12,12,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+13,13,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the 3 largest loans is 11,503,415.92 CHF.",11503415.92,True
+14,14,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans in the portfolio is 11503415.92.,11503415.92,True
+15,15,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is 11,503,415.92 CHF.",11503415.92,True
+16,16,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+17,17,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the three largest loans: 11503415.92,11503415.92,True
+18,18,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+19,19,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+20,20,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is 11,503,415.92.",11503415.92,True
+21,21,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+22,22,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92.,11503415.92,True
+23,23,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The sum of exposures for the three largest loans is 11,503,415.92 CHF.",11503415.92,True
+24,24,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+25,25,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans in the portfolio is 11503415.92.,11503415.92,True
+26,26,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"Total exposure of the three largest loans is CHF 11,503,415.92.",11503415.92,True
+27,27,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+28,28,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the top 3 loans is 11503415.92 CHF.,11503415.92,True
+29,29,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92.,11503415.92,True
+30,30,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the top 3 loan(s): 11503415.92,11503415.92,True
+31,31,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+32,32,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+33,33,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92,11503415.92,True
+34,34,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+35,35,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is 11,503,415.92 CHF.",11503415.92,True
+36,36,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+37,37,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+38,38,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans in the portfolio: 11503415.92,11503415.92,True
+39,39,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the top 3 loans: 11503415.92 CHF,11503415.92,True
+40,40,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+41,41,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+42,42,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the three largest loans: 11503415.92,11503415.92,True
+43,43,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+44,44,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the three largest loans: 11503415.92,11503415.92,True
+45,45,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+46,46,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans: 11503415.92,11503415.92,True
+47,47,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+48,48,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+49,49,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+50,50,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans: 11503415.92 CHF.,11503415.92,True
+51,51,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"I ran the analysis by loading the CSV files with latin1 encoding, selecting the top 3 loans by Exposure, and summing their exposures.
+
+Code used (summary):
+- Load data with encoding='latin1'
+- Convert Exposure to numeric
+- Identify top 3 loans by Exposure
+- Sum exposures and report by currency
+
+Result:
+- The three largest loans are all denominated in CHF.
+- Total exposure of the top 3 loans: 11,503,415.92 CHF
+
+Final answer:
+The total exposure of the top 3 loans is 11,503,415.92 CHF.",11503415.92,True
+52,52,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans: 11503415.92 CHF,11503415.92,True
+53,53,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+54,54,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92.,11503415.92,True
+55,55,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is CHF 11,503,415.92.",11503415.92,True
+56,56,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is 11,503,415.92.",11503415.92,True
+57,57,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+58,58,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+59,59,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the top 3 loans is CHF 11,503,415.92.",11503415.92,True
+60,60,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92.,11503415.92,True
+61,61,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is 11,503,415.92.",11503415.92,True
+62,62,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+63,63,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+64,64,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+65,65,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is 11,503,415.92.",11503415.92,True
+66,66,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the top 3 loans is 11,503,415.92 CHF.",11503415.92,True
+67,67,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+68,68,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+69,69,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+70,70,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+71,71,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+72,72,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+73,73,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+74,74,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the 3 largest loans is 11,503,415.92 CHF.",11503415.92,True
+75,75,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+76,76,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+77,77,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+78,78,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The sum of exposures for the three largest loans is 11,503,415.92 CHF.",11503415.92,True
+79,79,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the top 3 loans is 11,503,415.92 CHF. All three of these largest exposures are in CHF.",11503415.92,True
+80,80,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92.,11503415.92,True
+81,81,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+82,82,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+83,83,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"Total exposure of the 3 largest loans: $11,503,415.92",11503415.92,True
+84,84,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+85,85,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+86,86,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the top 3 loans is 11,503,415.92.",11503415.92,True
+87,87,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans is 11503415.92,11503415.92,True
+88,88,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is 11,503,415.92 CHF.",11503415.92,True
+89,89,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans: 11503415.92 CHF,11503415.92,True
+90,90,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+91,91,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+92,92,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the three largest loans: 11503415.92,11503415.92,True
+93,93,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92.,11503415.92,True
+94,94,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+95,95,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,"CHF 11,503,415.92",11503415.92,True
+96,96,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+97,97,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+98,98,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+99,99,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,Total exposure of the 3 largest loans: 11503415.92,11503415.92,True
+100,100,1A,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the 3 largest loans is 11503415.92 CHF.,11503415.92,True
+100,1,1B,What is the combined exposure of the top three loans in the portfolio in CHF?,11503415.92,The combined exposure of the top three CHF loans is 11503415.92 CHF.,11503415.92,True
+200,2,1B,How much is the total exposure for the three largest loans in the portfolio?,11503415.92,"Top 3 loans by exposure (highest Exposure):
+- ClientID ECHRUXCNYI, CollateralID 72XHWHWARKEJ, Exposure 4269020.01 CHF, LoanClass Mortgage, Type Rollover
+- ClientID HBVVIWQIBV, CollateralID 88IXNYZAZGBC, Exposure 3839462.76 CHF, LoanClass Mortgage, Type Rollover
+- ClientID CATVCCUFMF, CollateralID 75BUIJXPNONX, Exposure 3394933.15 CHF, LoanClass Mortgage, Type Rollover
+Total exposure by currency for these top 3 loans:
+- CHF: 11503415.92",11503415.92,True
+103,3,1B,Please provide the aggregate exposure of the three biggest loans in the portfolio?,11503415.92,"CHF 11,503,415.92",11503415.92,True
+104,4,1B,What is the sum of exposures for the largest three loans in the portfolio?,11503415.92,The sum of exposures for the largest three loans is 11503415.92 CHF.,11503415.92,True
+105,5,1B,Calculate the cumulative exposure of the top three loans in the portfolio?,11503415.92,"The cumulative exposure of the top three loans in the portfolio is 11,503,415.92 CHF.",11503415.92,True
+106,6,1B,What is the exposure total for the portfolio's three largest loans?,11503415.92,The exposure total for the portfolio's three largest loans is 11503415.92 CHF.,11503415.92,True
+107,7,1B,How much exposure do the three largest loans in the portfolio represent in total?,11503415.92,"Total exposure of the three largest loans: 11,503,415.92 CHF",11503415.92,True
+108,8,1B,Give me the total exposure across the top three loans in the portfolio?,11503415.92,"Total exposure across the top three loans: 11,503,415.92",11503415.92,True
+109,9,1B,What is the combined notional of the three biggest loans in the portfolio?,11503415.92,"Combined notional of the three largest loans: CHF 11,503,415.92",11503415.92,True
+110,10,1B,Provide the sum of exposure for the three largest loans in the loan book?,11503415.92,Sum of the three largest loan exposures is 11503415.92.,11503415.92,True
+111,11,1B,What is the aggregate exposure of the portfolio's top three loans?,11503415.92,The aggregate exposure of the portfolio's top three loans is 11503415.92.,11503415.92,True
+112,12,1B,Can you tell me the total exposure of the three largest loans in the portfolio?,11503415.92,"Total exposure of the three largest loans: 11,503,415.92 CHF",11503415.92,True
+113,13,1B,What is the cumulative exposure for the top three loans in our portfolio?,11503415.92,"11,503,415.92 CHF",11503415.92,True
+114,14,1B,How much combined exposure do the three biggest loans in the portfolio have?,11503415.92,The combined exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+115,15,1B,What is the total notional amount for the three largest loans in the portfolio?,11503415.92,The total notional amount for the three largest loans is 11503415.92 CHF.,11503415.92,True
+116,16,1B,Report the aggregate exposure of the three largest loans in the portfolio?,11503415.92,"The aggregate exposure of the top three loans is 11,503,415.92.",11503415.92,True
+117,17,1B,What is the summed exposure of the portfolio's three biggest loans?,11503415.92,The sum of exposures of the portfolio's three largest loans is 11503415.92.,11503415.92,True
+118,18,1B,Calculate the total exposure of the three largest loan positions in the portfolio?,11503415.92,"Total exposure of the three largest loan positions: 11503415.92 (CHF).
+Top 3 loans details:
+  ClientID CollateralID   Exposure ExposureCCY LoanClass     Type   Maturity
+ECHRUXCNYI 72XHWHWARKEJ 4269020.01         CHF  Mortgage Rollover 31.03.2026
+HBVVIWQIBV 88IXNYZAZGBC 3839462.76         CHF  Mortgage Rollover 31.05.2026
+CATVCCUFMF 75BUIJXPNONX 3394933.15         CHF  Mortgage Rollover 28.02.2026",11503415.92,True
+119,19,1B,What is the combined exposure for the top three loans in the portfolio?,11503415.92,"Top 3 loans by Exposure (largest first):
+- ClientID ECHRUXCNYI, CollateralID 72XHWHWARKEJ, Exposure 4269020.01 CHF
+- ClientID HBVVIWQIBV, CollateralID 88IXNYZAZGBC, Exposure 3839462.76 CHF
+- ClientID CATVCCUFMF, CollateralID 75BUIJXPNONX, Exposure 3394933.15 CHF
+Combined exposure: 11503415.92 CHF
+",11503415.92,True
+120,20,1B,"How much exposure, in total, is tied to the portfolio's three largest loans?",11503415.92,The total exposure tied to the portfolio's three largest loans is 11503415.92 CHF.,11503415.92,True
+121,21,1B,What is the total exposure of the largest three credits in the portfolio?,11503415.92,"Total exposure of the largest three credits: 11,503,415.92 CHF",11503415.92,True
+122,22,1B,Provide the cumulative exposure of the portfolio's top three loans?,11503415.92,Cumulative exposure of portfolio's top 3 loans: 11503415.92 CHF,11503415.92,True
+123,23,1B,What is the aggregate exposure across the three biggest loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+124,24,1B,How much is the sum of exposures for the portfolio's top three loans?,11503415.92,The sum of exposures for the portfolio's top 3 loans is 11503415.92.,11503415.92,True
+125,25,1B,What is the total exposure of the three highest-exposure loans in the portfolio?,11503415.92,Total exposure of the three highest-exposure loans: 11503415.92 CHF,11503415.92,True
+126,26,1B,Please calculate the combined notional of the three largest loans in the portfolio?,11503415.92,The combined notional of the three largest loans is 11503415.92 CHF.,11503415.92,True
+127,27,1B,What is the total exposure across the three largest facilities in the portfolio?,11503415.92,"The total exposure across the three largest facilities is 11503415.92 CHF.
+Top 3 facilities by Exposure:
+CollateralID   ClientID   Exposure ExposureCCY  PropertyMarketValue
+72XHWHWARKEJ ECHRUXCNYI 4269020.01         CHF              4760000
+88IXNYZAZGBC HBVVIWQIBV 3839462.76         CHF              4105000
+75BUIJXPNONX CATVCCUFMF 3394933.15         CHF              4319000",11503415.92,True
+128,28,1B,How much combined exposure do the portfolio's top three loans carry?,11503415.92,"Top 3 loans by Exposure (sorted descending):
+- Loan ClientECHRUXCNYI_Collateral72XHWHWARKEJ: Exposure 4269020.01 CHF (ClientID ECHRUXCNYI, CollateralID 72XHWHWARKEJ, Type Rollover, Maturity 31.03.2026)
+- Loan ClientHBVVIWQIBV_Collateral88IXNYZAZGBC: Exposure 3839462.76 CHF (ClientID HBVVIWQIBV, CollateralID 88IXNYZAZGBC, Type Rollover, Maturity 31.05.2026)
+- Loan ClientCATVCCUFMF_Collateral75BUIJXPNONX: Exposure 3394933.15 CHF (ClientID CATVCCUFMF, CollateralID 75BUIJXPNONX, Type Rollover, Maturity 28.02.2026)
+
+Combined exposure by currency for these top 3 loans:
+- CHF: 11503415.92",11503415.92,True
+129,29,1B,What is the sum of the exposures for the three largest loans in the portfolio?,11503415.92,The sum of the exposures for the three largest loans is 11503415.92 CHF.,11503415.92,True
+130,30,1B,Provide the total exposure of the portfolio's three largest loan positions?,11503415.92,"Three largest loan positions by exposure:
+1. Client: César Ziltener (ID ECHRUXCNYI), Collateral: 72XHWHWARKEJ, Type: Rollover, LoanClass: Mortgage, Exposure: 4269020.01 CHF, Maturity: 31.03.2026, PropertyType: Single-Family Home, Location: Scheuerhansli 146, 4937 Ursenbach, Switzerland
+2. Client: Kenza Afra (ID HBVVIWQIBV), Collateral: 88IXNYZAZGBC, Type: Rollover, LoanClass: Mortgage, Exposure: 3839462.76 CHF, Maturity: 31.05.2026, PropertyType: Apartment, Location: Chemin des Champs-de-Vaux 28, 1246 Corsier GE, Switzerland
+3. Client: Yosyas Meier (ID CATVCCUFMF), Collateral: 75BUIJXPNONX, Type: Rollover, LoanClass: Mortgage, Exposure: 3394933.15 CHF, Maturity: 28.02.2026, PropertyType: Apartment, Location: Asperstrieweg 11, 5025 Asp, Switzerland
+
+Total exposure of these three positions: 11503415.92
+Total exposure by currency for these top 3:
+  CHF: 11503415.92",11503415.92,True
+131,31,1B,What is the cumulative exposure of the top three loans in the loan book?,11503415.92,The cumulative exposure of the top three loans is 11503415.92.,11503415.92,True
+132,32,1B,How much exposure in total do the three biggest loans account for in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+133,33,1B,What is the aggregate exposure of the three largest loans by exposure in the portfolio?,11503415.92,"Aggregate exposure of the three largest loans: 11,503,415.92 CHF",11503415.92,True
+134,34,1B,Please share the total exposure for the portfolio's top three loans?,11503415.92,The total exposure for the portfolio's top three loans is 11503415.92 CHF.,11503415.92,True
+135,35,1B,What is the combined exposure amount of the three largest loans in the portfolio?,11503415.92,The combined exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+136,36,1B,Calculate the sum of exposures for the portfolio's three biggest loans?,11503415.92,"The sum of exposures for the portfolio's three biggest loans is 11503415.92.
+Currency breakdown among these top 3: 11503415.92 CHF.
+Top 3 loans details:
+  ClientID CollateralID LoanClass     Type   Exposure ExposureCCY
+ECHRUXCNYI 72XHWHWARKEJ  Mortgage Rollover 4269020.01         CHF
+HBVVIWQIBV 88IXNYZAZGBC  Mortgage Rollover 3839462.76         CHF
+CATVCCUFMF 75BUIJXPNONX  Mortgage Rollover 3394933.15         CHF",11503415.92,True
+137,37,1B,What is the total exposure of the three largest borrowers in the portfolio?,11503415.92,"Three largest borrowers by total exposure:
+- Joélie Hindle (ClientID KXHAEPQYPR): 12051353.36
+- Letizia Breitenmoser (ClientID XHWLSPYLZU): 8465519.11
+- César Ziltener (ClientID ECHRUXCNYI): 4269020.01
+
+Combined exposure of the three largest borrowers: 24785892.479999997",24785892.479999997,False
+138,38,1B,How much total exposure is associated with the top three loans in the portfolio?,11503415.92,"The total exposure of the top three loans is 11,503,415.92 CHF.",11503415.92,True
+139,39,1B,What is the aggregate exposure for the largest three loan facilities in the portfolio?,11503415.92,"The aggregate exposure of the top 3 loan facilities is 11,503,415.92 CHF.",11503415.92,True
+140,40,1B,Provide the cumulative exposure across the portfolio's three largest loans?,11503415.92,"Top 3 loans by exposure:
+Client ECHRUXCNYI (Collateral 72XHWHWARKEJ): Exposure 4269020.01 CHF | LoanClass: Mortgage, Type: Rollover
+Client HBVVIWQIBV (Collateral 88IXNYZAZGBC): Exposure 3839462.76 CHF | LoanClass: Mortgage, Type: Rollover
+Client CATVCCUFMF (Collateral 75BUIJXPNONX): Exposure 3394933.15 CHF | LoanClass: Mortgage, Type: Rollover
+
+Total exposure across top 3 loans: 11,503,415.92 CHF.",11503415.92,True
+141,41,1B,What is the total exposure tied to the three biggest loans in our portfolio?,11503415.92,The total exposure tied to the three biggest loans is 11503415.92 CHF.,11503415.92,True
+142,42,1B,How much is the combined exposure for the three largest credits in the portfolio?,11503415.92,"The combined exposure for the three largest credits is 11,503,415.92 CHF.",11503415.92,True
+143,43,1B,What is the summed exposure of the three largest loans in the portfolio?,11503415.92,The sum of the exposures of the three largest loans is 11503415.92 CHF.,11503415.92,True
+144,44,1B,Please provide the total exposure for the portfolio's largest three loans?,11503415.92,Total exposure of the three largest loans: 11503415.92 CHF,11503415.92,True
+145,45,1B,What is the aggregate exposure of the top three loan positions in the portfolio?,11503415.92,11503415.92,11503415.92,True
+146,46,1B,How much combined exposure do the top three loans have in the portfolio?,11503415.92,Combined exposure of the top three loans: 11503415.92 CHF.,11503415.92,True
+147,47,1B,What is the cumulative exposure of the three largest loans in the portfolio?,11503415.92,"Three largest loans by exposure:
+- ClientID ECHRUXCNYI, CollateralID 72XHWHWARKEJ, Exposure 4269020.01 CHF
+- ClientID HBVVIWQIBV, CollateralID 88IXNYZAZGBC, Exposure 3839462.76 CHF
+- ClientID CATVCCUFMF, CollateralID 75BUIJXPNONX, Exposure 3394933.15 CHF
+
+Cumulative exposure by currency for these top 3 loans:
+- CHF: 11503415.92",11503415.92,True
+148,48,1B,Calculate the total exposure carried by the portfolio's three biggest loans?,11503415.92,Total exposure of the top 3 loans: 11503415.92 CHF,11503415.92,True
+149,49,1B,What is the sum total exposure of the three largest loans in the portfolio?,11503415.92,The sum total exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+150,50,1B,How much exposure in aggregate do the portfolio's top three loans represent?,11503415.92,"Top 3 loans by exposure (in CHF):
+Client ECHRUXCNYI - Collateral 72XHWHWARKEJ: 4269020.01 CHF
+Client HBVVIWQIBV - Collateral 88IXNYZAZGBC: 3839462.76 CHF
+Client CATVCCUFMF - Collateral 75BUIJXPNONX: 3394933.15 CHF
+Aggregate exposure: 11503415.92 CHF.",11503415.92,True
+151,51,1B,What is the total exposure attributable to the top three loans in the portfolio?,11503415.92,The total exposure of the top 3 loans is 11503415.92 CHF.,11503415.92,True
+152,52,1B,How much do the three largest loans add up to in total exposure?,11503415.92,The sum of the three largest loans' exposure is 11503415.92.,11503415.92,True
+153,53,1B,Please state the combined exposure of the portfolio's three biggest loans?,11503415.92,"Top 3 loans by exposure:
+1. Client César Ziltener (ID ECHRUXCNYI), Collateral 72XHWHWARKEJ, Exposure 4269020.01 CHF, LoanClass Mortgage, Type Rollover, CollateralType Single-Family Home, Country Switzerland
+2. Client Kenza Afra (ID HBVVIWQIBV), Collateral 88IXNYZAZGBC, Exposure 3839462.76 CHF, LoanClass Mortgage, Type Rollover, CollateralType Apartment, Country Switzerland
+3. Client Yosyas Meier (ID CATVCCUFMF), Collateral 75BUIJXPNONX, Exposure 3394933.15 CHF, LoanClass Mortgage, Type Rollover, CollateralType Apartment, Country Switzerland
+
+Exposure totals by currency for the top 3:
+- CHF: 11503415.92",11503415.92,True
+154,54,1B,What total exposure do the largest three loans contribute to the portfolio?,11503415.92,11503415.92,11503415.92,True
+155,55,1B,Sum the exposures of the top three loans in the portfolio for me?,11503415.92,The sum of exposures for the top three loans is 11503415.92.,11503415.92,True
+156,56,1B,What is the grand total exposure of the portfolio's three largest loans?,11503415.92,Grand total exposure of the portfolio's three largest loans: 11503415.92 CHF,11503415.92,True
+157,57,1B,How much is the aggregated exposure of the three biggest loans in the portfolio?,11503415.92,The aggregated exposure of the three biggest loans is 11503415.92 CHF.,11503415.92,True
+158,58,1B,Provide the rolled-up exposure for the top three loans in the portfolio?,11503415.92,"Top 3 loans by exposure (rolled-up exposure is the sum of these three):
+1. Client ECHRUXCNYI - César Ziltener (Collateral 72XHWHWARKEJ): Exposure = 4,269,020.01 CHF, Collateral = Single-Family Home, Location = Switzerland 4937 Ursenbach
+2. Client HBVVIWQIBV - Kenza Afra (Collateral 88IXNYZAZGBC): Exposure = 3,839,462.76 CHF, Collateral = Apartment, Location = Switzerland 1246 Corsier GE
+3. Client CATVCCUFMF - Yosyas Meier (Collateral 75BUIJXPNONX): Exposure = 3,394,933.15 CHF, Collateral = Apartment, Location = Switzerland 5025 Asp
+Total rolled-up exposure for top 3 loans = 11,503,415.92 CHF",11503415.92,True
+159,59,1B,What is the total exposure figure for the portfolio's largest three loans?,11503415.92,The total exposure of the portfolio's three largest loans is 11503415.92 CHF.,11503415.92,True
+160,60,1B,How much combined exposure is there across the three largest loans in the portfolio?,11503415.92,The three largest loans by exposure have a total exposure of 11503415.92 CHF.,11503415.92,True
+161,61,1B,What is the overall exposure of the portfolio's top three loans?,11503415.92,"CHF 11,503,415.92",11503415.92,True
+162,62,1B,Please give the total exposure covered by the three biggest loans in the portfolio?,11503415.92,"The total exposure of the three largest loans is 11,503,415.92 CHF.",11503415.92,True
+163,63,1B,What do the exposures of the top three loans sum to in this portfolio?,11503415.92,11503415.92,11503415.92,True
+164,64,1B,Compute the aggregate exposure for the three largest loans in the portfolio?,11503415.92,"Top 3 loans by Exposure (largest first):
+1. César Ziltener (ID ECHRUXCNYI) - Exposure: 4269020.01 CHF, Loan: Mortgage Rollover, Maturity: 31.03.2026, Collateral 72XHWHWARKEJ: 4760000 CHF, Single-Family Home in Switzerland (4937 Ursenbach), Market Value: 4760000 CHF
+2. Kenza Afra (ID HBVVIWQIBV) - Exposure: 3839462.76 CHF, Loan: Mortgage Rollover, Maturity: 31.05.2026, Collateral 88IXNYZAZGBC: 4105000 CHF, Apartment in Switzerland (1246 Corsier GE), Market Value: 4105000 CHF
+3. Yosyas Meier (ID CATVCCUFMF) - Exposure: 3394933.15 CHF, Loan: Mortgage Rollover, Maturity: 28.02.2026, Collateral 75BUIJXPNONX: 4319000 CHF, Apartment in Switzerland (5025 Asp), Market Value: 4319000 CHF
+Total aggregate exposure: 11503415.92",11503415.92,True
+165,65,1B,What is the total amount of exposure for the top three loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+166,66,1B,How much exposure in total do the largest three loans comprise in the portfolio?,11503415.92,"Total exposure of the three largest loans: 11,503,415.92. Top loans by exposure: 1) ClientID ECHRUXCNYI, CollateralID 72XHWHWARKEJ, Mortgage, Rollover, Exposure 4,269,020.01; 2) ClientID HBVVIWQIBV, CollateralID 88IXNYZAZGBC, Mortgage, Rollover, Exposure 3,839,462.76; 3) ClientID CATVCCUFMF, CollateralID 75BUIJXPNONX, Mortgage, Rollover, Exposure 3,394,933.15.",11503415.92,True
+167,67,1B,What is the joint exposure of the three biggest loans in the portfolio?,11503415.92,The joint exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+168,68,1B,Provide the total of exposures for the top three loans in the portfolio?,11503415.92,The total exposure of the top three loans is 11503415.92 CHF.,11503415.92,True
+169,69,1B,What is the combined exposure value of the three largest loans in the portfolio?,11503415.92,The combined exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+170,70,1B,How much is the portfolio's total exposure to its top three loans?,11503415.92,The portfolio's total exposure to its top three loans is 11503415.92 CHF.,11503415.92,True
+171,71,1B,What cumulative exposure do the top three loans account for in the portfolio?,11503415.92,"The cumulative exposure of the top 3 loans is 11503415.92 CHF, which accounts for 1.25% of the portfolio (total exposure in CHF = 917325347.86).",917325347.86,False
+172,72,1B,Please return the aggregate exposure across the three largest loans in the portfolio?,11503415.92,The aggregate exposure across the three largest loans is 11503415.92 CHF.,11503415.92,True
+173,73,1B,What is the exposure total represented by the portfolio's three biggest loans?,11503415.92,The total exposure of the portfolio's three largest loans is 11503415.92 CHF.,11503415.92,True
+174,74,1B,How much do the exposures of the largest three loans total in the portfolio?,11503415.92,"Total exposure of the largest three loans: 11,503,415.92 CHF",11503415.92,True
+175,75,1B,What is the aggregate amount of exposure tied to the top three loans in the portfolio?,11503415.92,The aggregate exposure of the top three loans is 11503415.92 CHF.,11503415.92,True
+176,76,1B,Provide the cumulative total exposure for the portfolio's top three loans?,11503415.92,"Total exposure of the portfolio's top three loans: 11,503,415.92 CHF",11503415.92,True
+177,77,1B,What is the sum of the portfolio exposures for the three largest loans?,11503415.92,The sum of the portfolio exposures for the three largest loans is 11503415.92 CHF.,11503415.92,True
+178,78,1B,How much is the total exposure covered by the top three loans in the portfolio?,11503415.92,The total exposure of the top three loans is 11503415.92 CHF.,11503415.92,True
+179,79,1B,What combined exposure is associated with the three biggest loans in the portfolio?,11503415.92,"CHF 11,503,415.92",11503415.92,True
+180,80,1B,Please compute the total notional of the largest three loans in the portfolio?,11503415.92,"Top 3 loans by exposure:
+311. Client César Ziltener (ID ECHRUXCNYI): Exposure 4,269,020.01 CHF, LoanClass Mortgage, Type Rollover, Collateral 72XHWHWARKEJ
+382. Client Kenza Afra (ID HBVVIWQIBV): Exposure 3,839,462.76 CHF, LoanClass Mortgage, Type Rollover, Collateral 88IXNYZAZGBC
+785. Client Yosyas Meier (ID CATVCCUFMF): Exposure 3,394,933.15 CHF, LoanClass Mortgage, Type Rollover, Collateral 75BUIJXPNONX
+
+The total notional of the three largest loans is 11,503,416 CHF.",11503416.0,True
+181,81,1B,What is the total exposure across the portfolio's three largest credit facilities?,11503415.92,"The total exposure across the portfolio's three largest credit facilities is 11,503,415.92 CHF.",11503415.92,True
+182,82,1B,How much combined exposure do our portfolio's top three loans represent?,11503415.92,The combined exposure of the portfolio's top three loans is 11503415.92 CHF.,11503415.92,True
+183,83,1B,What is the aggregate exposure number for the three biggest loans in the portfolio?,11503415.92,"The aggregate exposure for the three largest loans is 11,503,415.92 CHF.",11503415.92,True
+184,84,1B,Provide the total exposure amount for the portfolio's top three loans?,11503415.92,"11,503,415.92 CHF",11503415.92,True
+185,85,1B,What is the cumulativ exposure value of the three largest loans in the portfolio?,11503415.92,The cumulative exposure value of the three largest loans in the portfolio is 11503415.92 CHF.,11503415.92,True
+186,86,1B,How much exposure in total is concentrated in the portfolio's three biggest loans?,11503415.92,"The total exposure of the portfolio's three largest loans is 11503415.92 CHF.
+
+Top 3 loans details:
+  ClientID FirstName LastName CollateralID   Exposure ExposureCCY LoanClass     Type   Maturity  PropertyMarketValue       PropertyType PropertyAddressCountry PropertyAddressPostalCodeCity
+ECHRUXCNYI     César Ziltener 72XHWHWARKEJ 4269020.01         CHF  Mortgage Rollover 31.03.2026              4760000 Single-Family Home            Switzerland                4937 Ursenbach
+HBVVIWQIBV     Kenza     Afra 88IXNYZAZGBC 3839462.76         CHF  Mortgage Rollover 31.05.2026              4105000          Apartment            Switzerland               1246 Corsier GE
+CATVCCUFMF    Yosyas    Meier 75BUIJXPNONX 3394933.15         CHF  Mortgage Rollover 28.02.2026              4319000          Apartment            Switzerland                      5025 Asp",11503415.92,True
+187,87,1B,What is the total exposure of the three largest loan exposures in the portfolio?,11503415.92,Total exposure of the three largest loan exposures: 11503415.92 CHF,11503415.92,True
+188,88,1B,Please provide the combined exposure figure for the top three loans in the portfolio?,11503415.92,Combined exposure of the top three loans: 11503415.92 CHF,11503415.92,True
+189,89,1B,What do the three largest loans amount to in total exposure for ortfolio?,11503415.92,"Top 3 loans by exposure (descending):
+Rank 1: LoanClass=Mortgage, Type=Rollover, Exposure=4269020.01CHF, ClientID=ECHRUXCNYI, CollateralID=72XHWHWARKEJ
+Rank 2: LoanClass=Mortgage, Type=Rollover, Exposure=3839462.76CHF, ClientID=HBVVIWQIBV, CollateralID=88IXNYZAZGBC
+Rank 3: LoanClass=Mortgage, Type=Rollover, Exposure=3394933.15CHF, ClientID=CATVCCUFMF, CollateralID=75BUIJXPNONX
+
+Total exposure of the top 3 loans: 11503415.92
+Exposure by currency among top 3: 11503415.92 CHF",11503415.92,True
+190,90,1B,How much is the sum total of exposures for the top three loans in the portfolio?,11503415.92,11503415.92,11503415.92,True
+191,91,1B,What is the rolled-up exposure of the portfolio's three largest loans?,11503415.92,Rolled-up exposure of the portfolio's three largest loans: 11503415.92 CHF,11503415.92,True
+192,92,1B,Provide the joint exposure across the three biggest loans in the portfolio?,11503415.92,"Total joint exposure across the three biggest loans: 11,503,415.92 CHF",11503415.92,True
+193,93,1B,What is the total exposure that the top three loans contribute to the portfolio?,11503415.92,"Top three loans contribute 11503415.92 to the portfolio, which is about 1.25% of the total exposure (917325347.86).",917325347.86,False
+194,94,1B,How much aggregate exposure is held in the portfolio's three largest loans?,11503415.92,"The aggregate exposure of the portfolio's three largest loans is 11,503,415.92 CHF.",11503415.92,True
+195,95,1B,What the portfolio's total exposure to its three largest loans?,11503415.92,The portfolio's total exposure to its three largest loans is 11503415.92 CHF.,11503415.92,True
+196,96,1B,Please share the cumulative exposure for the three biggest loans in the portfolio?,11503415.92,11503415.92 CHF,11503415.92,True
+197,97,1B,What is the sum exposure amount for the portfolio's top three loans?,11503415.92,11503415.92,11503415.92,True
+198,98,1B,How much combined exposure is attributable to the three largest loans in the portfolio?,11503415.92,The combined exposure of the three largest loans is 11503415.92 CHF.,11503415.92,True
+199,99,1B,What is the all-in exposure of the portfolio's three largest loans?,11503415.92,"Top 3 loans by all-in exposure (All-in Exposure shown in the loan's ExposureCCY):
+- Client: Kenza Afra (ID HBVVIWQIBV), Collateral: 88IXNYZAZGBC, Loan: Mortgage - Rollover, Exposure: 3839462.76 CHF, LGD: 0.33, All-in Exposure: 5106485.47 CHF
+  Collateral value: 4105000.00 CHF, Country: Switzerland, Maturity: 31.05.2026
+- Client: César Ziltener (ID ECHRUXCNYI), Collateral: 72XHWHWARKEJ, Loan: Mortgage - Rollover, Exposure: 4269020.01 CHF, LGD: 0.16, All-in Exposure: 4952063.21 CHF
+  Collateral value: 4760000.00 CHF, Country: Switzerland, Maturity: 31.03.2026
+- Client: Lis Sorrentino (ID KVNLJRMKDR), Collateral: 73DWBKWSSTWD, Loan: Mortgage - Rollover, Exposure: 3214071.84 CHF, LGD: 0.29, All-in Exposure: 4146152.67 CHF
+  Collateral value: 3596000.00 CHF, Country: Switzerland, Maturity: 30.11.2025
+Total all-in exposure of top 3: 14204701.36 CHF",14204701.36,True
+200,100,1B,Give the total exposure number for the top three loans in the portfolio?,11503415.92,Total exposure for top 3 loans: 11503415.92 CHF.,11503415.92,True
+201,1,1C,Quelle est l�exposition totale des trois plus gros pr�ts du portefeuille ?,11503415.92,Total exposure des trois plus gros prêts du portefeuille: 11503415.92 CHF,11503415.92,True
+202,2,1C,Quel est le total d�exposition des trois principaux pr�ts du portefeuille ?,11503415.92,"Le total d'exposition des trois principaux prêts du portefeuille est 11 503 415,92.",11 503 415.92,True
+203,3,1C,Donnez l�exposition agr�g�e des trois plus grands pr�ts du portefeuille.,11503415.92,"Exposition agrégée des trois plus grands prêts du portefeuille: 11503415.92
+Détails par devise: 11503415.92 CHF
+Détails des trois prêts les plus exposés (pour référence):
+- Client: César Ziltener, Prêt: Mortgage, Devise: CHF, Exposition: 4269020.01, Pays: Switzerland
+- Client: Kenza Afra, Prêt: Mortgage, Devise: CHF, Exposition: 3839462.76, Pays: Switzerland
+- Client: Yosyas Meier, Prêt: Mortgage, Devise: CHF, Exposition: 3394933.15, Pays: Switzerland
+",11503415.92,True
+204,4,1C,Quelle est l�exposition cumul�e des trois plus gros cr�dits du portefeuille ?,11503415.92,L'exposition cumulée des trois plus gros crédits du portefeuille est de 11503415.92 CHF.,11503415.92,True
+205,5,1C,Combien repr�sente en tout l�exposition des trois plus grands pr�ts du portefeuille ?,11503415.92,Le total de l'exposition des trois plus grands prêts du portefeuille est 11503415.92.,11503415.92,True
+206,6,1C,Quel est le montant total d�exposition pour les trois plus gros pr�ts du portefeuille ?,11503415.92,Le montant total d'exposition des trois plus gros prêts du portefeuille est: 11503415.92,11503415.92,True
+207,7,1C,Quelle est la somme des expositions des trois plus grands pr�ts du portefeuille ?,11503415.92,"La somme des expositions des trois plus grands prêts du portefeuille est de 11 503 415,92.",11 503 415.92,True
+208,8,1C,Indiquez l�exposition globale des trois principaux pr�ts du portefeuille.,11503415.92,L'exposition globale des trois prêts les plus importants est de 11503415.92 CHF.,11503415.92,True
+209,9,1C,Quelle est l�exposition combin�e des trois plus gros pr�ts du portefeuille ?,11503415.92,"L'exposition combinée des trois plus gros prêts est de 11,503,416 CHF.",11503416.0,True
+210,10,1C,Quel est l�engagement total li� aux trois plus grands pr�ts du portefeuille ?,11503415.92,"Exposition totale des 3 plus grands prêts: 11,503,415.92 CHF
+
+Détails des 3 prêts les plus importants :
+- Client: César Ziltener (ClientID ECHRUXCNYI), Collateral: 72XHWHWARKEJ, LoanClass: Mortgage, Type: Rollover, Exposure: 4,269,020.01 CHF, Maturity: 31.03.2026, Collateral Type: Single-Family Home, Location: Switzerland
+- Client: Kenza Afra (ClientID HBVVIWQIBV), Collateral: 88IXNYZAZGBC, LoanClass: Mortgage, Type: Rollover, Exposure: 3,839,462.76 CHF, Maturity: 31.05.2026, Collateral Type: Apartment, Location: Switzerland
+- Client: Yosyas Meier (ClientID CATVCCUFMF), Collateral: 75BUIJXPNONX, LoanClass: Mortgage, Type: Rollover, Exposure: 3,394,933.15 CHF, Maturity: 28.02.2026, Collateral Type: Apartment, Location: Switzerland",11503415.92,True
+211,11,1C,Donnez la valeur totale d�exposition des trois plus gros cr�dits du portefeuille.,11503415.92,"La valeur totale d'exposition des trois plus gros crédits du portefeuille est de 11 503 415,92.",11 503 415.92,True
+212,12,1C,Quel est le total des expositions pour les trois pr�ts les plus importants du portefeuille ?,11503415.92,"Le total des expositions des trois prêts les plus importants est 11,503,415.92.",11503415.92,True
+213,13,1C,Quelle est l�exposition all-in des trois plus grands pr�ts du portefeuille ?,11503415.92,"Top 3 des prêts par exposition (Exposure):\n311. Client: César Ziltener | Exposition = 4269020.01 CHF, LoanClass=Mortgage, Type=Rollover, Maturity=31.03.2026, Collateral=, Country=\n382. Client: Kenza Afra | Exposition = 3839462.76 CHF, LoanClass=Mortgage, Type=Rollover, Maturity=31.05.2026, Collateral=, Country=\n785. Client: Yosyas Meier | Exposition = 3394933.15 CHF, LoanClass=Mortgage, Type=Rollover, Maturity=28.02.2026, Collateral=, Country=\n\nTotal all-in exposure des 3 plus grands prêts: 11503415.92 CHF",11503415.92,True
+214,14,1C,Quelle est l�exposition conjointe des trois plus gros pr�ts du portefeuille ?,11503415.92,"Les trois prêts les plus importants par exposition:
+- Client: César Ziltener, LoanClass: Mortgage, Type: Rollover, CollateralID: 72XHWHWARKEJ, Exposure: 4269020.01 CHF
+- Client: Kenza Afra, LoanClass: Mortgage, Type: Rollover, CollateralID: 88IXNYZAZGBC, Exposure: 3839462.76 CHF
+- Client: Yosyas Meier, LoanClass: Mortgage, Type: Rollover, CollateralID: 75BUIJXPNONX, Exposure: 3394933.15 CHF
+
+Exposition conjointe par devise:
+CHF: 11503415.92",11503415.92,True
+215,15,1C,Calculez l�exposition cumul�e des trois plus grands pr�ts du portefeuille.,11503415.92,"Exposition cumulée des trois plus grands prêts du portefeuille: 11503415.92 CHF.
+Détails des trois prêts:
+- Client César Ziltener (ID ECHRUXCNYI), Prêt 72XHWHWARKEJ | Exposition: 4269020.01 CHF, Classe: Mortgage, Type: Rollover, Maturité: 31.03.2026, Bien: Single-Family Home en Switzerland, 4937 Ursenbach
+- Client Kenza Afra (ID HBVVIWQIBV), Prêt 88IXNYZAZGBC | Exposition: 3839462.76 CHF, Classe: Mortgage, Type: Rollover, Maturité: 31.05.2026, Bien: Apartment en Switzerland, 1246 Corsier GE
+- Client Yosyas Meier (ID CATVCCUFMF), Prêt 75BUIJXPNONX | Exposition: 3394933.15 CHF, Classe: Mortgage, Type: Rollover, Maturité: 28.02.2026, Bien: Apartment en Switzerland, 5025 Asp",11503415.92,True
+216,16,1C,Quel est le total agr�g� d�exposition des trois plus gros pr�ts du portefeuille ?,11503415.92,Le total agrégé des expositions des trois plus gros prêts du portefeuille est de 11503415 CHF.,11503415.0,True
+217,17,1C,Quelle est l�exposition totale port�e par les trois plus grands pr�ts du portefeuille ?,11503415.92,Exposition totale des trois plus grands prêts: 11503415.92 CHF.,11503415.92,True
+218,18,1C,� combien s��l�ve l�exposition globale des trois plus gros pr�ts du portefeuille ?,11503415.92,L'exposition globale des trois plus gros prêts est de 11503415.92 CHF.,11503415.92,True
+219,19,1C,Quelle est la somme totale d�exposition des trois principaux pr�ts du portefeuille ?,11503415.92,La somme totale des expositions des trois principaux prêts du portefeuille est 11503415.92.,11503415.92,True
+220,20,1C,Donnez le total d�exposition des trois plus gros pr�ts du portefeuille.,11503415.92,Total d'exposition des trois plus gros prêts: 11503415.92 CHF,11503415.92,True
+221,21,1C,Quelle est l�exposition consolid�e des trois plus grands pr�ts du portefeuille ?,11503415.92,"Exposition consolidée des trois plus grands prêts: 11,503,415.92 CHF",11503415.92,True
+222,22,1C,Quel est le risque total (exposition) des trois plus gros pr�ts du portefeuille ?,11503415.92,"Le risque total des trois plus gros prêts du portefeuille est de 11 503 415,92 CHF.",11 503 415.92,True
+223,23,1C,Quelle est l�exposition totale attribuable aux trois plus grands pr�ts du portefeuille ?,11503415.92,L'exposition totale attribuable aux trois plus grands prêts du portefeuille est de 11503415.92 CHF.,11503415.92,True
+224,24,1C,Quel est le montant cumul� d�exposition des trois pr�ts les plus importants ?,11503415.92,Le montant cumulé d'exposition des trois prêts les plus importants est de 11503415.92 CHF.,11503415.92,True
+225,25,1C,Quelle est l�exposition agr�g�e pour les trois plus gros pr�ts du portefeuille ?,11503415.92,"Top 3 prêts par exposition (Exposure):
+ClientID ECHRUXCNYI, CollateralID 72XHWHWARKEJ, Exposure 4269020.01 CHF, Maturity 31.03.2026
+ClientID HBVVIWQIBV, CollateralID 88IXNYZAZGBC, Exposure 3839462.76 CHF, Maturity 31.05.2026
+ClientID CATVCCUFMF, CollateralID 75BUIJXPNONX, Exposure 3394933.15 CHF, Maturity 28.02.2026
+
+Exposition totale des trois plus gros prêts: 11503415.92
+
+Détails par devise parmi les trois plus gros prêts:
+ - CHF: 11503415.92",11503415.92,True
+226,26,1C,Indiquez la somme des expositions des trois principaux crédits du portefeuille.,11503415.92,"La somme des expositions des trois principaux crédits est 11 503 415,92 CHF.",11 503 415.92,True
+227,27,1C,Quel est le total des engagements de cr�dit des trois plus grands pr�ts du portefeuille ?,11503415.92,Le total des engagements des trois plus grands prêts est 11503415.92 CHF.,11503415.92,True
+228,28,1C,Donnez l�exposition totale des trois pr�ts � plus forte exposition du portefeuille.,11503415.92,L'exposition totale des trois prêts les plus exposés est 11503415.92 CHF.,11503415.92,True
+229,29,1C,Quelle est l�exposition globale associ�e aux trois plus gros pr�ts du portefeuille ?,11503415.92,L'exposition globale des trois plus gros prêts du portefeuille est de 11503415.92 CHF.,11503415.92,True
+230,30,1C,Combien totalisent les expositions des trois plus grands pr�ts du portefeuille ?,11503415.92,Les expositions des trois plus grands prêts totalisent 11503415.92.,11503415.92,True
+231,31,1C,Quel est l�encours d�exposition total des trois plus gros pr�ts du portefeuille ?,11503415.92,Le total des expositions des trois plus gros prêts est 11503415.92 CHF.,11503415.92,True
+232,32,1C,Quelle est l�exposition cumul�e des trois plus grandes facilit�s de cr�dit du portefeuille ?,11503415.92,Exposition cumulée des trois plus grandes facilités de crédit du portefeuille: 11503415.92 CHF.,11503415.92,True
+233,33,1C,Donnez le montant total d�exposition des trois meilleurs pr�ts du portefeuille.,11503415.92,"Le montant total d'exposition des trois meilleurs prêts du portefeuille est de 11 503 415,92 CHF.",11 503 415.92,True
+234,34,1C,Quel est le total d�exposition des trois plus grosses positions de pr�t du portefeuille ?,11503415.92,Le total d'exposition des trois plus grosses positions de prêt du portefeuille est 11503415.92 CHF.,11503415.92,True
+235,35,1C,Wie hoch ist die Gesamtexponierung der drei gr��ten Kredite im Portfolio?,11503415.92,Die Gesamtexponierung der drei größten Kredite beträgt 11503415.92.,11503415.92,True
+236,36,1C,Was ist das gesamte Exposure der drei gr��ten Kredite im Portfolio?,11503415.92,Der gesamte Exposure der drei größten Kredite im Portfolio beträgt 11503415.92.,11503415.92,True
+237,37,1C,Bitte nennen Sie die aggregierte Exponierung der drei gr��ten Kredite im Portfolio.,11503415.92,"Die aggregierte Exponierung der drei größten Kredite beträgt 11.503.415,92 CHF.",11.503415.92,True
+238,38,1C,Wie hoch ist die kumulierte Exponierung der drei gr��ten Kreditpositionen im Portfolio?,11503415.92,Die kumulative Exponierung der drei größten Kreditpositionen beträgt 11503415.92 CHF.,11503415.92,True
+239,39,1C,Wieviel betr�gt die Summe der Exposures der drei gr��ten Kredite im Portfolio?,11503415.92,Die Summe der Exposures der drei größten Kredite im Portfolio beträgt 11503415.92.,11503415.92,True
+240,40,1C,Was ist das Gesamtengagement der drei gr��ten Kredite im Portfolio?,11503415.92,Der Gesamtbetrag der drei größten Kredite beträgt 11503415.92 CHF.,11503415.92,True
+241,41,1C,Geben Sie das kombinierte Exposure der drei gr��ten Kredite im Portfolio an.,11503415.92,Das kombinierte Exposure der drei größten Kredite beträgt 11503415.92 CHF.,11503415.92,True
+242,42,1C,Wie hoch ist das aggregierte Exposure der drei Top-Kredite im Portfolio?,11503415.92,"Aggregierte Exposure der drei Top-Kredite beträgt 11.503.415,92 CHF.",11.503415.92,True
+243,43,1C,Was ist die Gesamt-Exposure der drei wichtigsten Kredite im Portfolio?,11503415.92,Die Gesamt-Exposure der drei wichtigsten Kredite beträgt 11503415.92 CHF.,11503415.92,True
+244,44,1C,Wie hoch ist die kumulierte Gesamtbelastung (Exposure) der drei gr��ten Kredite?,11503415.92,Die kumulierte Gesamtbelastung der drei größten Kredite beträgt 11503415.92.,11503415.92,True
+245,45,1C,Nennen Sie die Summe des Kredit-Exposures der drei gr��ten Kredite im Portfolio.,11503415.92,Die Summe der Kredit-Exposures der drei größten Kredite im Portfolio beträgt 11503415.92.,11503415.92,True
+246,46,1C,Wie gro� ist das Exposure der drei gr��ten Kreditfazilit�ten insgesamt?,11503415.92,Die drei größten Kreditfazilitäten haben insgesamt 11503415.92 CHF.,11503415.92,True
+247,47,1C,Was ist die Gesamt-Exponierung der drei gr��ten Kreditengagements im Portfolio?,11503415.92,"Die drei größten Kreditengagements im Portfolio (nach Exposure sortiert):
+- Ziltener, César | LoanType: Rollover | Exposure: 4269020.01 CHF | Collateral: 72XHWHWARKEJ (Single-Family Home)
+- Afra, Kenza | LoanType: Rollover | Exposure: 3839462.76 CHF | Collateral: 88IXNYZAZGBC (Apartment)
+- Meier, Yosyas | LoanType: Rollover | Exposure: 3394933.15 CHF | Collateral: 75BUIJXPNONX (Apartment)
+
+Gesamt-Exponierung nach Währung (Top 3):
+- 11503415.92 CHF",11503415.92,True
+248,48,1C,Wie hoch ist das gemeinsame Exposure der drei gr��ten Kredite im Portfolio?,11503415.92,Der gemeinsame Exposure der drei größten Kredite beträgt 5.8e+06 USD.,6.0,False
+249,49,1C,Bitte berechnen Sie die gesamte Exponierung der drei gr��ten Kredite des Portfolios.,11503415.92,Die drei größten Kredite nach Exposure haben zusammen eine Gesamtexponierung von 11503415.92 CHF.,11503415.92,True
+250,50,1C,Was ist die aggregierte Gesamt-Exposure der drei gr��ten Kreditpositionen?,11503415.92,Aggregierte Gesamt-Exposure der drei größten Kreditpositionen beträgt 11503415.92 (11503415.92 CHF).,11503415.92,True
+251,51,1C,Wie hoch ist das kumulierte Exposure der drei gr��ten Kredite im Bestand?,11503415.92,Das kumulierte Exposure der drei größten Kredite beträgt 11503415.92 CHF.,11503415.92,True
+252,52,1C,Wie viel kombiniertes Exposure tragen die drei gr��ten Kredite im Portfolio?,11503415.92,Die drei größten Kredite tragen gemeinsam 11503415.92 CHF Exposure.,11503415.92,True
+253,53,1C,Was ist die Summe der Exponierungen der drei gr��ten Kredite im Portfolio?,11503415.92,Die Summe der Exponierungen der drei größten Kredite beträgt 11503415.92 CHF.,11503415.92,True
+254,54,1C,Geben Sie die gesamte Exposure-Zahl f�r die drei gr��ten Kredite im Portfolio an.,11503415.92,11503415.92,11503415.92,True
+255,55,1C,Wie hoch ist das Gesamtvolumen des Exposures der drei gr��ten Kredite?,11503415.92,Das Gesamtvolumen des Exposures der drei größten Kredite beträgt 11503415.92 CHF.,11503415.92,True
+256,56,1C,"Was ist das Gesamt-Exposure, das auf die drei gr��ten Kredite entf�llt?",11503415.92,Gesamt-Exposure der drei größten Kredite beträgt 11503415.92 CHF.,11503415.92,True
+257,57,1C,Wie hoch ist die Gesamtbelastung durch die drei gr��ten Kredite im Portfolio?,11503415.92,"Die drei größten Kredite nach Exposure im Portfolio:
+- Exposure: 4269020.01 CHF, LoanClass=Mortgage, Type=Rollover, ClientID=ECHRUXCNYI, CollateralID=72XHWHWARKEJ
+- Exposure: 3839462.76 CHF, LoanClass=Mortgage, Type=Rollover, ClientID=HBVVIWQIBV, CollateralID=88IXNYZAZGBC
+- Exposure: 3394933.15 CHF, LoanClass=Mortgage, Type=Rollover, ClientID=CATVCCUFMF, CollateralID=75BUIJXPNONX
+
+Gesamtbelastung je Währung der Top-3 Kredite: 11503415.92 CHF
+Gesamtbelastung der Top-3 Kredite: 11503415.92 CHF",11503415.92,True
+258,58,1C,Nennen Sie die konsolidierte Exponierung der drei gr��ten Kredite.,11503415.92,"Die konsolidierte Exponierung der drei größten Kredite beträgt CHF 11.503.415,92.",11.503415.92,True
+259,59,1C,Was ist die Gesamt-Exposure der drei gr��ten Kreditfazilit�ten im Portfolio?,11503415.92,Die Gesamt-Exposure der drei größten Kreditfazilitaten beträgt 11503415.92 CHF.,11503415.92,True
+260,60,1C,Wie viel Exposure in Summe entf�llt auf die drei gr��ten Kredite?,11503415.92,Die Summe des Exposures der drei größten Kredite beträgt 11503415.92 CHF.,11503415.92,True
+261,61,1C,Was ist das all-in Exposure der drei gr��ten Kredite im Portfolio?,11503415.92,"Die drei größten Kredite nach Exposure (All-in Exposure = Exposure * (1 + LGD)):
+1) ClientID: ECHRUXCNYI, CollateralID: 72XHWHWARKEJ, Exposure: 4269020.01 CHF, LGD: 0.16, All-in Exposure: 4952063.21 CHF
+2) ClientID: HBVVIWQIBV, CollateralID: 88IXNYZAZGBC, Exposure: 3839462.76 CHF, LGD: 0.33, All-in Exposure: 5106485.47 CHF
+3) ClientID: CATVCCUFMF, CollateralID: 75BUIJXPNONX, Exposure: 3394933.15 CHF, LGD: 0.22, All-in Exposure: 4141818.44 CHF
+Gesamt-All-in-Exposure (Top 3): 14200367.13 CHF",14200367.13,False
+262,62,1C,Wie hoch ist die aggregierte Exponierung der Top-3-Kredite im Portfolio?,11503415.92,"Top-3-Kredite nach Exponierung:
+1. Kunde: César Ziltener, Kredittyp: Mortgage Rollover, CollateralID: 72XHWHWARKEJ, Exponierung: 4269020.01 CHF
+2. Kunde: Kenza Afra, Kredittyp: Mortgage Rollover, CollateralID: 88IXNYZAZGBC, Exponierung: 3839462.76 CHF
+3. Kunde: Yosyas Meier, Kredittyp: Mortgage Rollover, CollateralID: 75BUIJXPNONX, Exponierung: 3394933.15 CHF
+Aggregierte Exponierung der Top-3-Kredite: 11503415.92 CHF",11503415.92,True
+263,63,1C,Bitte geben Sie die kumulierte Exponierung der drei gr��ten Kreditpositionen an.,11503415.92,Die kumulierte Exponierung der drei größten Kreditpositionen beträgt 11503415 CHF.,11503415.0,True
+264,64,1C,Wie gro� ist das gesamte Exposure der drei gr��ten Darlehen im Portfolio?,11503415.92,"Die drei größten Darlehen im Portfolio nach Exposure:
+- ClientID: ECHRUXCNYI, CollateralID: 72XHWHWARKEJ, Exposure: 4269020.01 CHF, LoanClass: Mortgage, Type: Rollover, Rating: A+
+- ClientID: HBVVIWQIBV, CollateralID: 88IXNYZAZGBC, Exposure: 3839462.76 CHF, LoanClass: Mortgage, Type: Rollover, Rating: AA
+- ClientID: CATVCCUFMF, CollateralID: 75BUIJXPNONX, Exposure: 3394933.15 CHF, LoanClass: Mortgage, Type: Rollover, Rating: A-
+Gesamtexposure der drei größten Darlehen: 11503415.92 CHF",11503415.92,True
+265,65,1C,Was ist die gemeinsame Exponierung der drei gr��ten Kredite im Portfolio?,11503415.92,"Top 3 Kredite nach Exposition:
+1. ClientID ECHRUXCNYI, CollateralID 72XHWHWARKEJ, Mortgage/Rollover, Exposure 4269020.01 CHF
+2. ClientID HBVVIWQIBV, CollateralID 88IXNYZAZGBC, Mortgage/Rollover, Exposure 3839462.76 CHF
+3. ClientID CATVCCUFMF, CollateralID 75BUIJXPNONX, Mortgage/Rollover, Exposure 3394933.15 CHF
+
+Gesamtexponierung je Währung (Top 3 Kredite):
+- 11503415.92 CHF
+
+Gesamtexponierung der drei größten Kredite: 11503415.92 CHF",11503415.92,True
+266,66,1C,Wie hoch ist das zusammengefasste Exposure der drei gr��ten Kredite im Portfolio?,11503415.92,Die drei größten Kredite kumulieren sich auf 11503415.92 CHF.,11503415.92,True
+267,67,1C,Nennen Sie die gesamte Summe der Exposures der drei gr��ten Kredite im Portfolio.,11503415.92,Die Gesamtsumme der Exposures der drei größten Kredite im Portfolio beträgt 11503415.92.,11503415.92,True
+268,68,1C,Qual � l�esposizione totale dei tre prestiti pi� grandi nel portafoglio?,11503415.92,La somma dell'esposizione dei tre prestiti più grandi è 11503415.92 CHF.,11503415.92,True
+269,69,1C,Qual � l�esposizione complessiva dei tre principali prestiti del portafoglio?,11503415.92,L'esposizione complessiva dei tre principali prestiti è 11503415.92 CHF.,11503415.92,True
+270,70,1C,Fornisci l�esposizione aggregata dei tre prestiti pi� grandi nel portafoglio.,11503415.92,"Esposizione aggregata dei tre prestiti più grandi nel portafoglio:
+- Position 1: Cliente César Ziltener, Prestito, Classe Mortgage, Tipo Rollover, Esposizione 4269020.01 CHF, Maturità 31.03.2026, Collaterale Single-Family Home in Switzerland
+- Position 2: Cliente Kenza Afra, Prestito, Classe Mortgage, Tipo Rollover, Esposizione 3839462.76 CHF, Maturità 31.05.2026, Collaterale Apartment in Switzerland
+- Position 3: Cliente Yosyas Meier, Prestito, Classe Mortgage, Tipo Rollover, Esposizione 3394933.15 CHF, Maturità 28.02.2026, Collaterale Apartment in Switzerland
+Totale esposizione top 3: 11503415.92 CHF",11503415.92,True
+271,71,1C,Qual � l�esposizione cumulata dei tre prestiti pi� rilevanti nel portafoglio?,11503415.92,"Esposizione cumulata dei tre prestiti più rilevanti nel portafoglio: 11503415.92
+Dettagli dei tre prestiti (ClientID, CollateralID, Esposizione, CCY):
+ - Cliente ECHRUXCNYI, Collaterale 72XHWHWARKEJ, Esposizione 4269020.01 CHF
+ - Cliente HBVVIWQIBV, Collaterale 88IXNYZAZGBC, Esposizione 3839462.76 CHF
+ - Cliente CATVCCUFMF, Collaterale 75BUIJXPNONX, Esposizione 3394933.15 CHF",11503415.92,True
+272,72,1C,Quanto ammonta in totale l�esposizione dei tre prestiti maggiori del portafoglio?,11503415.92,La somma delle esposizioni dei tre prestiti maggiori è 11503415.92 CHF.,11503415.92,True
+273,73,1C,Qual � l�importo totale di esposizione per i tre prestiti pi� grandi del portafoglio?,11503415.92,L'importo totale di esposizione dei tre prestiti più grandi del portafoglio è 11503415.92 CHF.,11503415.92,True
+274,74,1C,Qual � la somma delle esposizioni dei tre prestiti principali del portafoglio?,11503415.92,La somma delle esposizioni dei tre prestiti principali del portafoglio è 11503415.92 CHF.,11503415.92,True
+275,75,1C,Indica l�esposizione globale dei tre prestiti pi� grandi nel portafoglio.,11503415.92,"I tre prestiti più grandi nel portafoglio (in ordine decrescente di esposizione):\n1. ClienteID ECHRUXCNYI, CollateralID 72XHWHWARKEJ, Tipo=Rollover, Esposizione=4269020.01 CHF, Maturity=31.03.2026\n2. ClienteID HBVVIWQIBV, CollateralID 88IXNYZAZGBC, Tipo=Rollover, Esposizione=3839462.76 CHF, Maturity=31.05.2026\n3. ClienteID CATVCCUFMF, CollateralID 75BUIJXPNONX, Tipo=Rollover, Esposizione=3394933.15 CHF, Maturity=28.02.2026\n\nEsposizione globale (somma delle tre esposizioni): 11,503,415.92 CHF",11503415.92,True
+276,76,1C,Qual � l�esposizione combinata dei tre maggiori prestiti del portafoglio?,11503415.92,Esposizione combinata dei tre maggiori prestiti: 11503415.92 CHF,11503415.92,True
+277,77,1C,Qual � l�impegno totale (esposizione) dei tre prestiti pi� grandi del portafoglio?,11503415.92,"Qual è l'impegno totale (esposizione) dei tre prestiti più grandi del portafoglio?
+I tre prestiti principali sono:
+- Prestito per César Ziltener (ClientID ECHRUXCNYI), Collaterale 72XHWHWARKEJ, Esposizione 4269020.01 CHF, Classe Prestito: Mortgage, Tipo: Rollover, Maturità: 31.03.2026, Collaterale: Single-Family Home, Paese Collaterale: Switzerland
+- Prestito per Kenza Afra (ClientID HBVVIWQIBV), Collaterale 88IXNYZAZGBC, Esposizione 3839462.76 CHF, Classe Prestito: Mortgage, Tipo: Rollover, Maturità: 31.05.2026, Collaterale: Apartment, Paese Collaterale: Switzerland
+- Prestito per Yosyas Meier (ClientID CATVCCUFMF), Collaterale 75BUIJXPNONX, Esposizione 3394933.15 CHF, Classe Prestito: Mortgage, Tipo: Rollover, Maturità: 28.02.2026, Collaterale: Apartment, Paese Collaterale: Switzerland
+Totale esposizioni dei tre prestiti più grandi: 11503415.92 CHF",11503415.92,True
+278,78,1C,Fornisci il valore totale di esposizione dei tre prestiti pi� importanti del portafoglio.,11503415.92,Totale esposizione dei tre prestiti più importanti: 11503415.92 CHF,11503415.92,True
+279,79,1C,Qual � il totale delle esposizioni per i tre prestiti di maggiore entit� nel portafoglio?,11503415.92,"Il totale delle esposizioni per i tre prestiti di maggiore entità nel portafoglio è 11,503,416 CHF.",11503416.0,True
+280,80,1C,Qual � l�esposizione all-in dei tre prestiti pi� grandi del portafoglio?,11503415.92,"I tre prestiti più grandi per esposizione (All-in espostion per ciascun prestito, per currency):
+
+- Prestito 1: Cliente César Ziltener (ClientID ECHRUXCNYI)
+  Esposizione: 4269020.01 CHF | LoanClass: Mortgage | Type: Rollover | Maturity: 31.03.2026
+  Collaterale: CollateralID 72XHWHWARKEJ, Tipo: Single-Family Home | Valore Collaterale: 4760000 CHF | Ubicazione Collaterale: Switzerland, 4937 Ursenbach
+- Prestito 2: Cliente Kenza Afra (ClientID HBVVIWQIBV)
+  Esposizione: 3839462.76 CHF | LoanClass: Mortgage | Type: Rollover | Maturity: 31.05.2026
+  Collaterale: CollateralID 88IXNYZAZGBC, Tipo: Apartment | Valore Collaterale: 4105000 CHF | Ubicazione Collaterale: Switzerland, 1246 Corsier GE
+- Prestito 3: Cliente Yosyas Meier (ClientID CATVCCUFMF)
+  Esposizione: 3394933.15 CHF | LoanClass: Mortgage | Type: Rollover | Maturity: 28.02.2026
+  Collaterale: CollateralID 75BUIJXPNONX, Tipo: Apartment | Valore Collaterale: 4319000 CHF | Ubicazione Collaterale: Switzerland, 5025 Asp
+
+Totale esposizioni per valuta CHF: 11503415.92 CHF
+
+Somma totale esposizioni dei 3 prestiti (senza conversione valutaria): 11503415.92 (note: valuta riporta per ciascun prestito)",11503415.92,True
+281,81,1C,Qual � l�esposizione congiunta dei tre principali finanziamenti del portafoglio?,11503415.92,"Esposizione congiunta dei tre principali finanziamenti del portafoglio:
+1. Cliente César Ziltener (ID ECHRUXCNYI), Prestito: Mortgage / Rollover, Esposizione: 4269020 CHF, Collateral ID: 72XHWHWARKEJ, Immobile: Single-Family Home, Località: 4937 Ursenbach, Switzerland
+2. Cliente Kenza Afra (ID HBVVIWQIBV), Prestito: Mortgage / Rollover, Esposizione: 3839463 CHF, Collateral ID: 88IXNYZAZGBC, Immobile: Apartment, Località: 1246 Corsier GE, Switzerland
+3. Cliente Yosyas Meier (ID CATVCCUFMF), Prestito: Mortgage / Rollover, Esposizione: 3394933 CHF, Collateral ID: 75BUIJXPNONX, Immobile: Apartment, Località: 5025 Asp, Switzerland
+
+Esposizione congiunta totale: 11503416 CHF",11503416.0,True
+282,82,1C,Calcola l�esposizione cumulata dei tre prestiti pi� grandi del portafoglio.,11503415.92,"Esposizione cumulata dei tre prestiti più grandi per valuta: CHF: 11,503,415.92",11503415.92,True
+283,83,1C,Qual � il totale aggregato di esposizione per i tre prestiti maggiori?,11503415.92,"Totale esposizione dei tre prestiti maggiori: 11,503,415.92 CHF",11503415.92,True
+284,84,1C,Qual � l�esposizione totale coperta dai tre prestiti pi� grandi del portafoglio?,11503415.92,La esposizione totale dei tre prestiti più grandi è 11503415.92 CHF.,11503415.92,True
+285,85,1C,Quanto totalizzano le esposizioni dei tre prestiti principali del portafoglio?,11503415.92,"Totale esposizioni dei tre prestiti principali: 11,503,415.92 CHF",11503415.92,True
+286,86,1C,Qual � l�esposizione complessiva associata ai tre prestiti pi� grandi del portafoglio?,11503415.92,L'esposizione totale dei tre prestiti più grandi è 11503415.92 CHF.,11503415.92,True
+287,87,1C,Indica la somma totale di esposizione dei tre prestiti maggiori nel portafoglio.,11503415.92,"La somma totale delle esposizioni dei tre prestiti maggiori nel portafoglio è 11.503.415,92.",11.503415.92,True
+288,88,1C,Fornisci il totale di esposizione dei tre prestiti pi� esposti del portafoglio.,11503415.92,"CHF 11,503,415.92",11503415.92,True
+289,89,1C,Qual � l�esposizione aggregata dei tre maggiori crediti del portafoglio?,11503415.92,La somma delle esposizioni dei tre crediti maggiori è 11503415.92 CHF.,11503415.92,True
+290,90,1C,Qual � l�importo cumulato di esposizione dei tre principali prestiti?,11503415.92,"Top 3 prestiti per esposizione:
+- Cliente: César Ziltener, Classe Prestito: Mortgage, Tipo: Rollover, Esposizione: 4269020.01 CHF, CollateralID: 72XHWHWARKEJ
+- Cliente: Kenza Afra, Classe Prestito: Mortgage, Tipo: Rollover, Esposizione: 3839462.76 CHF, CollateralID: 88IXNYZAZGBC
+- Cliente: Yosyas Meier, Classe Prestito: Mortgage, Tipo: Rollover, Esposizione: 3394933.15 CHF, CollateralID: 75BUIJXPNONX
+
+Esposizione cumulata dei tre prestiti (per valuta): 11503415.92 CHF
+Somma totale delle esposizioni (senza conversione tra valute): 11503415.92",11503415.92,True
+291,91,1C,Qual � l�esposizione globale per le tre principali posizioni di credito del portafoglio?,11503415.92,Esposizione globale delle tre principali posizioni di credito: 11503415.92 (valute presenti: 11503415.92 CHF),11503415.92,True
+292,92,1C,Quanto � l�esposizione totale attribuibile ai tre prestiti pi� grandi del portafoglio?,11503415.92,La somma dell'esposizione attribuibile ai tre prestiti più grandi del portafoglio è 11503415.92 CHF.,11503415.92,True
+293,93,1C,Qual � l�esposizione complessiva delle tre maggiori linee di credito nel portafoglio?,11503415.92,"Le tre maggiori linee di credito nel portafoglio (con esposizione):
+- Cliente ECHRUXCNYI, Collateral 72XHWHWARKEJ, Mortgage Rollover: 4269020.01 CHF
+- Cliente HBVVIWQIBV, Collateral 88IXNYZAZGBC, Mortgage Rollover: 3839462.76 CHF
+- Cliente CATVCCUFMF, Collateral 75BUIJXPNONX, Mortgage Rollover: 3394933.15 CHF
+Esposizione totale delle tre maggiori linee: 11503415.92 CHF
+Esposizione per valuta tra le tre linee principali:
+  - CHF: 11503415.92",11503415.92,True
+294,94,1C,Qual � la somma delle esposizioni dei tre prestiti maggiori nel portafoglio?,11503415.92,La somma delle esposizioni dei tre prestiti maggiori nel portafoglio è 11503415.92 CHF.,11503415.92,True
+295,95,1C,Fornisci l�esposizione totale dei tre principali prestiti nel nostro portafoglio.,11503415.92,"Esposizione totale dei tre principali prestiti nel portafoglio:
+1. ClienteID ECHRUXCNYI, CollateralID 72XHWHWARKEJ, LoanClass Mortgage, Type Rollover, Exposure: 4269020.01 CHF
+2. ClienteID HBVVIWQIBV, CollateralID 88IXNYZAZGBC, LoanClass Mortgage, Type Rollover, Exposure: 3839462.76 CHF
+3. ClienteID CATVCCUFMF, CollateralID 75BUIJXPNONX, LoanClass Mortgage, Type Rollover, Exposure: 3394933.15 CHF
+
+Totali per valuta per i tre principali prestiti:
+- CHF: 11503415.92
+
+Esposizione totale (tutti e tre i prestiti) = 11503415.92 CHF",11503415.92,True
+296,96,1C,Qual � l�esposizione cumulata dei tre pi� grandi prestiti presenti nel portafoglio?,11503415.92,L’esposizione cumulata dei tre prestiti più grandi è 11503415.92 CHF.,11503415.92,True
+297,97,1C,Qual � l�esposizione totale delle tre maggiori posizioni di prestito del portafoglio?,11503415.92,L'esposizione totale delle tre maggiori posizioni di prestito del portafoglio è 11503415.92 CHF.,11503415.92,True
+298,98,1C,Quanto ammonta l�esposizione aggregata dei tre prestiti pi� grandi del portafoglio?,11503415.92,L'esposizione aggregata dei tre prestiti più grandi è 11503415.92 CHF.,11503415.92,True
+299,99,1C,Qual � il totale di esposizione legato ai tre prestiti pi� importanti del portafoglio?,11503415.92,Il totale dell'esposizione legata ai tre prestiti piu' importanti del portafoglio è 11503415.92.,11503415.92,True
+300,100,1C,Qual � l�esposizione complessiva dei tre maggiori finanziamenti nel portafoglio?,11503415.92,"La esposizione complessiva dei tre maggiori finanziamenti nel portafoglio è 11,503,415.92 CHF.",11503415.92,True
+301,1,1D,What is the total (the sum) exposure of the 3 largest loans in the portfolio?,11503415.92,The total exposure of the three largest loans is 11503415.92.,11503415.92,True
+302,2,1D,What is the total (the sum) exposure of the 4 largest loans in the portfolio?,14717487.76,The total exposure of the four largest loans is 14717487.76 CHF.,14717487.76,True
+303,3,1D,What is the total (the sum) exposure of the 5 largest loans in the portfolio?,17782995.40,Total exposure of the 5 largest loans: 17782995.4,17782995.4,True
+304,4,1D,What is the total (the sum) exposure of the 6 largest loans in the portfolio?,20840463.24,"Total exposure of top 6 loans: 20,840,463.24 CHF",20840463.24,True
+305,5,1D,What is the total (the sum) exposure of the 7 largest loans in the portfolio?,23832358.78,Total exposure of the 7 largest loans: 23832358.779999997,23832358.779999997,True
+306,6,1D,What is the total (the sum) exposure of the 8 largest loans in the portfolio?,26823911.53,"The total exposure of the 8 largest loans is 26,823,911.53.",26823911.53,True
+307,7,1D,What is the total (the sum) exposure of the 9 largest loans in the portfolio?,29787374.15,The total exposure of the 9 largest loans is 29787374.15 CHF.,29787374.15,True
+308,8,1D,What is the total (the sum) exposure of the 10 largest loans in the portfolio?,32682189.75,Grand total exposure of the 10 largest loans: 32682189.75. Totals by currency for the top 10: CHF 32682189.75,32682189.75,True
+309,9,1D,What is the total (the sum) exposure of the 11 largest loans in the portfolio?,35549951.45,The total exposure of the 11 largest loans is 35549951.45 CHF.,35549951.45,True
+310,10,1D,What is the total (the sum) exposure of the 12 largest loans in the portfolio?,38399707.6,The total exposure of the 12 largest loans is 38399707.60 CHF.,38399707.6,True
+311,11,1D,What is the total (the sum) exposure of the 13 largest loans in the portfolio?,41211503.96,The total exposure of the 13 largest loans is 41211503.96 CHF.,41211503.96,True
+312,12,1D,What is the total (the sum) exposure of the 14 largest loans in the portfolio?,43971496.46,The total exposure of the 14 largest loans is 43971496.46 CHF.,43971496.46,True
+313,13,1D,What is the total (the sum) exposure of the 15 largest loans in the portfolio?,46640879.83,The total exposure of the 15 largest loans is 46640879.83.,46640879.83,True
+314,14,1D,What is the total (the sum) exposure of the 16 largest loans in the portfolio?,49304765.46,"The total exposure of the 16 largest loans is 49,304,765.46 CHF.",49304765.46,True
+315,15,1D,What is the total (the sum) exposure of the 17 largest loans in the portfolio?,51945862.14,Total exposure of the 17 largest loans: 51945862.14,51945862.14,True
+316,16,1D,What is the total (the sum) exposure of the 18 largest loans in the portfolio?,54582374.32,Total exposure of the 18 largest loans: 54582374.31999999,54582374.31999999,True
+317,17,1D,What is the total (the sum) exposure of the 19 largest loans in the portfolio?,57198711.31,The total exposure of the 19 largest loans is 57198711.309999995 CHF.,57198711.309999995,True
+318,18,1D,What is the total (the sum) exposure of the 20 largest loans in the portfolio?,59800173.52,The total exposure of the 20 largest loans is 59800173.52 CHF. All top-20 exposures are in CHF.,59800173.52,True
+319,19,1D,What is the total (the sum) exposure of the 21 largest loans in the portfolio?,62399942.82,"The total exposure of the 21 largest loans is CHF 62,399,942.82.",62399942.82,True
+320,20,1D,What is the total (the sum) exposure of the 22 largest loans in the portfolio?,64992582.15,"The total exposure of the 22 largest loans is 64,992,582.15 CHF.",64992582.15,True
+321,21,1D,What is the total (the sum) exposure of the 23 largest loans in the portfolio?,67555212.36,Total exposure of the top 23 largest loans: 67555212.35999998,67555212.35999998,True
+322,22,1D,What is the total (the sum) exposure of the 24 largest loans in the portfolio?,70098920.03,70098920.03,70098920.03,True
+323,23,1D,What is the total (the sum) exposure of the 25 largest loans in the portfolio?,72634156.2,The total exposure of the 25 largest loans is 72634156.20.,72634156.2,True
+324,24,1D,What is the total (the sum) exposure of the 26 largest loans in the portfolio?,75162217.68,"Total exposure of the 26 largest loans: 75162217.68
+Exposure by currency: CHF: 75162217.68",75162217.68,True
+325,25,1D,What is the total (the sum) exposure of the 27 largest loans in the portfolio?,77676130.11,The total exposure of the 27 largest loans is 77676130.11.,77676130.11,True
+326,26,1D,What is the total (the sum) exposure of the 28 largest loans in the portfolio?,80184461.98,The total exposure of the 28 largest loans is 80184461.98000002.,80184461.98000002,True
+327,27,1D,What is the total (the sum) exposure of the 29 largest loans in the portfolio?,82671674.68,"The total exposure of the 29 largest loans is 82,671,674.68.
+Note: This sum uses Exposure values as provided. If multiple currencies are present (ExposureCCY), a currency conversion would be required for a true multi-currency total.",82671674.68,True
+328,28,1D,What is the total (the sum) exposure of the 30 largest loans in the portfolio?,85143329.5,"Total exposure of the 30 largest loans: 85143329.50
+Exposure by currency among top 30: 85143329.50 CHF",85143329.5,True
+329,29,1D,What is the total (the sum) exposure of the 31 largest loans in the portfolio?,87608220.29,"Total exposure of the top 31 loans is 87,608,220.29.",87608220.29,True
+330,30,1D,What is the total (the sum) exposure of the 32 largest loans in the portfolio?,90071580.6,Total exposure of the 32 largest loans: 90071580.60 CHF,90071580.6,True
+331,31,1D,What is the total (the sum) exposure of the 33 largest loans in the portfolio?,92519203.22,The total exposure of the top 33 largest loans is 92519203.22000001.,92519203.22000001,True
+332,32,1D,What is the total (the sum) exposure of the 34 largest loans in the portfolio?,94959567.2,94959567.20000002,94959567.20000002,True
+333,33,1D,What is the total (the sum) exposure of the 35 largest loans in the portfolio?,97375688.55,The total exposure of the 35 largest loans is 97375688.55 CHF.,97375688.55,True
+334,34,1D,What is the total (the sum) exposure of the 36 largest loans in the portfolio?,99775474.66,"The total exposure of the 36 largest loans is CHF 99,775,474.66.",99775474.66,True
+335,35,1D,What is the total (the sum) exposure of the 37 largest loans in the portfolio?,102168364.4,Total exposure of the 37 largest loans: 102168364.36000001 CHF,102168364.36000001,True
+336,36,1D,What is the total (the sum) exposure of the 38 largest loans in the portfolio?,104548106.1,"The total exposure of the 38 largest loans is 104,548,106.12.",104548106.12,True
+337,37,1D,What is the total (the sum) exposure of the 39 largest loans in the portfolio?,106926706.7,The total exposure of the 39 largest loans is 106926706.69 CHF.,106926706.69,True
+338,38,1D,What is the total (the sum) exposure of the 40 largest loans in the portfolio?,109304353.7,"The total exposure of the 40 largest loans is 109,304,353.71 CHF.",109304353.71,True
+339,39,1D,What is the total (the sum) exposure of the 41 largest loans in the portfolio?,111673839,The total exposure of the 41 largest loans is 111673838.99 CHF.,111673838.99,True
+340,40,1D,What is the total (the sum) exposure of the 42 largest loans in the portfolio?,114030078.9,The total exposure of the 42 largest loans is 114030078.88 CHF.,114030078.88,True
+341,41,1D,What is the total (the sum) exposure of the 43 largest loans in the portfolio?,116381465.4,"CHF 116,381,465.37",116381465.37,True
+342,42,1D,What is the total (the sum) exposure of the 44 largest loans in the portfolio?,118724646.9,"Total exposure of the top 44 loans: CHF 118,724,646.86",118724646.86,True
+343,43,1D,What is the total (the sum) exposure of the 45 largest loans in the portfolio?,121057509.2,"Total exposure of the top 45 loans: 121,057,509.17 CHF",121057509.17,True
+344,44,1D,What is the total (the sum) exposure of the 46 largest loans in the portfolio?,123372342.1,The total exposure of the top 46 loans is 123372342.09 CHF.,123372342.09,True
+345,45,1D,What is the total (the sum) exposure of the 47 largest loans in the portfolio?,125685441.6,125685441.55,125685441.55,True
+346,46,1D,What is the total (the sum) exposure of the 48 largest loans in the portfolio?,127997548.5,127997548.5,127997548.5,True
+347,47,1D,What is the total (the sum) exposure of the 49 largest loans in the portfolio?,130293565.6,"Total exposure of the 49 largest loans: 130293565.55. Per-currency breakdown among these 49 loans: [{'ExposureCCY': 'CHF', 'Exposure': 130293565.55}]",130293565.55,True
+348,48,1D,What is the total (the sum) exposure of the 50 largest loans in the portfolio?,132570045.5,"The total exposure of the 50 largest loans is 132,570,045.49 CHF.",132570045.49,True
+349,49,1D,What is the total (the sum) exposure of the 51 largest loans in the portfolio?,134843853.8,"The total exposure of the 51 largest loans is 134,843,853.80.",134843853.8,True
+350,50,1D,What is the total (the sum) exposure of the 52 largest loans in the portfolio?,137044165.3,"CHF 137,044,165.28",137044165.28,True
+351,51,1D,What is the total (the sum) exposure of the 53 largest loans in the portfolio?,139222557.8,The total exposure of the top 53 loans is 139222557.79 CHF.,139222557.79,True
+352,52,1D,What is the total (the sum) exposure of the 54 largest loans in the portfolio?,141367362.8,"Total exposure of the 54 largest loans: CHF 141,367,362.78. Exposure by currency for these top loans: CHF 141,367,362.78.",141367362.78,True
+353,53,1D,What is the total (the sum) exposure of the 55 largest loans in the portfolio?,143511653.2,"The total exposure of the 55 largest loans is CHF 143,511,653.24.",143511653.24,True
+354,54,1D,What is the total (the sum) exposure of the 56 largest loans in the portfolio?,145651243.6,"{'total_exposure': 145651243.57999998, 'top56_count': 56, 'currency_breakdown': {'CHF': 145651243.58}}",145651243.58,True
+355,55,1D,What is the total (the sum) exposure of the 57 largest loans in the portfolio?,147780353.1,"Total exposure of the top 57 largest loans: 147,780,353.13 Breakdown by currency -> CHF: 147,780,353.13",147780353.13,True
+356,56,1D,What is the total (the sum) exposure of the 58 largest loans in the portfolio?,149909413,Total exposure of the 58 largest loans: 149909413.0,149909413.0,True
+357,57,1D,What is the total (the sum) exposure of the 59 largest loans in the portfolio?,152035562.4,"The total exposure of the 59 largest loans is 152,035,562.40 CHF.",152035562.4,True
+358,58,1D,What is the total (the sum) exposure of the 60 largest loans in the portfolio?,154161257.2,"Total exposure of the 60 largest loans by Exposure:
+CHF: 154,161,257.19
+Overall total exposure across top 60 loans (unconverted): 154,161,257.19",154161257.19,True
+359,59,1D,What is the total (the sum) exposure of the 61 largest loans in the portfolio?,156279753.5,Overall total exposure of the 61 largest loans: 156279753.47 (sum of Exposure). Exposure by currency: CHF: 156279753.47.,156279753.47,True
+360,60,1D,What is the total (the sum) exposure of the 62 largest loans in the portfolio?,158385379.7,The total exposure of the 62 largest loans is 158385379.67.,158385379.67,True
+361,61,1D,What is the total (the sum) exposure of the 63 largest loans in the portfolio?,160477829.8,160477829.78,160477829.78,True
+362,62,1D,What is the total (the sum) exposure of the 64 largest loans in the portfolio?,162566205.3,The total exposure of the 64 largest loans is 162566205.29,162566205.29,True
+363,63,1D,What is the total (the sum) exposure of the 65 largest loans in the portfolio?,164646831.4,"Total exposure of the 65 largest loans: 164,646,831.37 CHF",164646831.37,True
+364,64,1D,What is the total (the sum) exposure of the 66 largest loans in the portfolio?,166697462.9,"Total exposure of the top 66 largest loans: 166,697,462.90 CHF",166697462.9,True
+365,65,1D,What is the total (the sum) exposure of the 67 largest loans in the portfolio?,168735548.7,168735548.71,168735548.71,True
+366,66,1D,What is the total (the sum) exposure of the 68 largest loans in the portfolio?,170772868.4,Total exposure of the 68 largest loans: 170772868.35. Exposure by currency for these loans: CHF: 170772868.35.,170772868.35,True
+367,67,1D,What is the total (the sum) exposure of the 69 largest loans in the portfolio?,172808940.1,The total exposure of the 69 largest loans is 172808940.10.,172808940.1,True
+368,68,1D,What is the total (the sum) exposure of the 70 largest loans in the portfolio?,174831932.4,"Total exposure of the 70 largest loans: CHF 174,831,932.37",174831932.37,True
+369,69,1D,What is the total (the sum) exposure of the 71 largest loans in the portfolio?,176850144.7,176850144.66,176850144.66,True
+370,70,1D,What is the total (the sum) exposure of the 72 largest loans in the portfolio?,178867984.4,"Total exposure of the 72 largest loans: 178,867,984.35 CHF",178867984.35,True
+371,71,1D,What is the total (the sum) exposure of the 73 largest loans in the portfolio?,180876750.7,The total exposure of the top 73 loans is 180876750.73 CHF.,180876750.73,True
+372,72,1D,What is the total (the sum) exposure of the 74 largest loans in the portfolio?,182884556.1,Total exposure of the 74 largest loans: 182884556.07 CHF,182884556.07,True
+373,73,1D,What is the total (the sum) exposure of the 75 largest loans in the portfolio?,184892010,The total exposure of the top 75 loans is 184892009.95999998.,184892009.95999998,True
+374,74,1D,What is the total (the sum) exposure of the 76 largest loans in the portfolio?,186892153.3,"Grand total exposure of the top 76 loans: 186892153.34
+Exposure by currency for the top loans:
+ - CHF: 186892153.34",186892153.34,True
+375,75,1D,What is the total (the sum) exposure of the 77 largest loans in the portfolio?,188891437.6,The total exposure of the 77 largest loans is 188891437.62 CHF.,188891437.62,True
+376,76,1D,What is the total (the sum) exposure of the 78 largest loans in the portfolio?,190888984.1,Total exposure of the top 78 loans: 190888984.10 CHF,190888984.1,True
+377,77,1D,What is the total (the sum) exposure of the 79 largest loans in the portfolio?,192859920.2,The total exposure of the 79 largest loans is 192859920.17999998 (in the loans' reported currencies).,192859920.17999998,True
+378,78,1D,What is the total (the sum) exposure of the 80 largest loans in the portfolio?,194821355,Total exposure of the 80 largest loans in the portfolio is 194821354.97.,194821354.97,True
+379,79,1D,What is the total (the sum) exposure of the 81 largest loans in the portfolio?,196782115.5,"Total exposure for the top 81 loans: 196,782,115.54 CHF",196782115.54,True
+380,80,1D,What is the total (the sum) exposure of the 82 largest loans in the portfolio?,198737579.3,"Total exposure of the 82 largest loans: 198,737,579.31 CHF.",198737579.31,True
+381,81,1D,What is the total (the sum) exposure of the 83 largest loans in the portfolio?,200691548.4,200691548.37,200691548.37,True
+382,82,1D,What is the total (the sum) exposure of the 84 largest loans in the portfolio?,202636987.2,The total exposure of the 84 largest loans is 202636987.22.,202636987.22,True
+383,83,1D,What is the total (the sum) exposure of the 85 largest loans in the portfolio?,204560340.7,"The total exposure of the 85 largest loans is 204,560,340.69 CHF.",204560340.69,True
+384,84,1D,What is the total (the sum) exposure of the 86 largest loans in the portfolio?,206473412.8,The total exposure of the top 86 loans is 206473412.82 CHF.,206473412.82,True
+385,85,1D,What is the total (the sum) exposure of the 87 largest loans in the portfolio?,208375031.1,"The total exposure of the 87 largest loans is 208,375,031.12 CHF.",208375031.12,True
+386,86,1D,What is the total (the sum) exposure of the 88 largest loans in the portfolio?,210274501.7,"Total exposure of the top 88 loans: CHF 210,274,501.73",210274501.73,True
+387,87,1D,What is the total (the sum) exposure of the 89 largest loans in the portfolio?,212171161.1,212171161.06000003,212171161.06000003,True
+388,88,1D,What is the total (the sum) exposure of the 90 largest loans in the portfolio?,214065251.4,The total exposure of the 90 largest loans is 214065251.43,214065251.43,True
+389,89,1D,What is the total (the sum) exposure of the 91 largest loans in the portfolio?,215951991.1,"The total exposure of the 91 largest loans is 215,951,991.11.",215951991.11,True
+390,90,1D,What is the total (the sum) exposure of the 92 largest loans in the portfolio?,217837863.3,"Total exposure of the 92 largest loans: 217837863.25000003
+Currency used among these loans: CHF",217837863.25000003,True
+391,91,1D,What is the total (the sum) exposure of the 93 largest loans in the portfolio?,219719691.8,Total exposure of the top 93 loans: 219719691.79 CHF,219719691.79,True
+392,92,1D,What is the total (the sum) exposure of the 94 largest loans in the portfolio?,221596038.1,Total exposure of the top 94 loans: 221596038.12000003 CHF.,221596038.12000003,True
+393,93,1D,What is the total (the sum) exposure of the 95 largest loans in the portfolio?,223472284.5,The total exposure of the top 95 loans is 223472284.48000005 CHF.,223472284.48000005,True
+394,94,1D,What is the total (the sum) exposure of the 96 largest loans in the portfolio?,225344999,225344998.97,225344998.97,True
+395,95,1D,What is the total (the sum) exposure of the 97 largest loans in the portfolio?,227208545.4,"Total exposure of the top 97 loans: 227208545.35
+Exposure by currency among the top loans:
+  CHF: 227208545.35",227208545.35,True
+396,96,1D,What is the total (the sum) exposure of the 98 largest loans in the portfolio?,229057006.1,"Total number of loans in portfolio: 893
+Number of top loans considered (98 or available): 98
+Exposure by currency among the top loans:
+ - CHF: 229057006.12
+Grand total exposure across all currencies (top 98 loans): 229057006.12",229057006.12,True
+397,97,1D,What is the total (the sum) exposure of the 99 largest loans in the portfolio?,230904876.7,"Total exposure of the 99 largest loans: 230,904,876.68 CHF",230904876.68,True
+398,98,1D,What is the total (the sum) exposure of the 100 largest loans in the portfolio?,232747569.4,Total exposure of the top 100 loans: 232747569.40 CHF.,232747569.4,True
+399,99,1D,What is the total (the sum) exposure of the 101 largest loans in the portfolio?,234587543.3,"Total exposure of the 101 largest loans: 234,587,543.29 (in the portfolio's Exposure currency).",234587543.29,True
+400,100,1D,What is the total (the sum) exposure of the 102 largest loans in the portfolio?,236426689.4,Total exposure of the 102 largest loans: 236426689.37 CHF,236426689.37,True

@@ -1,0 +1,35 @@
+questions = {
+    "basic": [
+        "How many loan exposures do I have in the portfolio?",
+        "What is the total exposure of the portfolio? What is the total collateral market value of the portfolio?",
+        "What is the largest income across all clients?",
+        "What is the maturity of the longest maturity loan?",
+    ],
+    "intermediate": [
+        "How many collateral properties do I have in Zurich and what is their total collateral value?",
+        "What is the total exposure of defaulted loans?",
+        "How many properties of each type are there in the portfolio, and what is the total collateral value of each?",
+        "What is the total expected loss across the portfolio (pd * LGD * EAD)?",
+        "Which are the top 10 most risky exposures by expected loss? Calculate the total expected loss per loan type. Divide it by the total exposure per bucket to find the most risky loan type on average.",
+        "Are there any properties in the same street?",
+    ],
+    "complex": [
+        f"Corporate client exposures make up which % of the total exposure?",
+        "How many properties do I have in alpine regions? What is the total collateral value and corresponding exposure for each region?",
+        "How many clients have more than one loan? Are they secured by the same property or different? Calculate the LtV for all loans across the portfolio.",
+        "From a regional (address-based) concentration perspective, can you identify any collateral value concentrations? How much exposure is behind this?",
+        "Of all clients without loans, which have the top 10 incomes?",
+    ],
+    "very advanced": [
+        f"If each loan in the portfolio earns me 1% interest income annually, under a moderate interest rate shock, how much less interest income would I receive annually, taking into account the type of loan – i.e. fix/rollover/floating?",
+        "What is the average duration of the portfolio (Duration is the number of years to expiry, weighted by Loan amount)?",
+        "What is the expected loss of the portfolio? In a global downturn similar to the 2008 Financial Crisis, by how much could the expected loss of the portfolio increase?",
+        "Looking at the entire portfolio, where do the biggest risks lie?",
+        "Weighted by exposure, what is the average loan rating?",
+        "Which Canton in Switzerland has the most property collateral value?",
+        "If no more loans are added to the portfolio, and loans expire, how long will it take for the portfolio exposure to decrease to 45% of today’s exposure?",
+        "If Switzerland is attacked by its enemies, either Germans, French, Italians, or Liechtensteiners, and they invade 30km into Switzerland from their country, which collateral properties are at risk?",
+        "If there is a major decline in market value in western Switzerland by 40%, how many loans would go into default (LTV greater than 100%)?",
+        "If all corporate loans are downgraded by 4 notches, how much would the expected loss of the entire portfolio increase by? How likely is it that this could realistically happen, and under what scenarios?",
+    ],
+}
