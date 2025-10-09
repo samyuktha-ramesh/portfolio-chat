@@ -20,15 +20,6 @@ class ChatSession:
         overrides (list[str], optional): List of configuration overrides. Defaults to None.
         session_id (int, optional): The session ID for logging purposes. Defaults to 0
 
-    Attributes:
-        cfg (DictConfig): The configuration object.
-        session_id (int): The session ID for logging purposes.
-        client (OpenAI): The OpenAI API client.
-        model (str): The model name to use for the API.
-        gen_kwargs (dict): Additional generation keyword arguments for the API call.
-        tools (list): The list of tool specifications loaded from the configuration.
-        history (list): The chat history, including system prompts and user messages.
-
     Raises:
         ValueError: If both cfg and overrides are provided.
     """
@@ -37,7 +28,7 @@ class ChatSession:
         self,
         cfg: DictConfig | None = None,
         overrides: list[str] | None = None,
-        session_id: int = 0,
+        session_id: str = "0",
     ):
         if cfg is None:
             with initialize(config_path="../configs", version_base="1.3"):

@@ -8,7 +8,7 @@ from portfolio_rag.agents.codeagent import extract_last_agent_code
 
 
 def orchestrate(
-    function: str, cfg: DictConfig, session_id: int, spinner_context, **kwargs: Any
+    function: str, cfg: DictConfig, session_id: str, spinner_context, **kwargs: Any
 ) -> str:
     with spinner_context("Analyzing..."):
         if function not in cfg.tools:

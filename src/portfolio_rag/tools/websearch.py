@@ -42,7 +42,7 @@ def top_headlines(api_key: str, category: str | None = None):
 
     response = requests.get(
         f"{URL}top-headlines",
-        params={"country": "us", "lang": "en", "category": category, "apikey": api_key},
+        params={"country": "us", "lang": "en", "category": category, "apikey": api_key},  # type: ignore
     )
 
     return format_request_output(response)
@@ -52,7 +52,7 @@ def webquery(query: str, api_key: str):
     """Search for articles based on a query string."""
     response = requests.get(
         f"{URL}search",
-        params={
+        params={  # type: ignore
             "q": query,
             "sortby": "relevance",
             "lang": "en",

@@ -9,10 +9,10 @@ from rich.console import Console
 from smolagents import CodeAgent, OpenAIModel
 from smolagents.monitoring import AgentLogger
 
-loggers: dict[int, AgentLogger] = dict()
+loggers: dict[str, AgentLogger] = dict()
 
 
-def extract_last_agent_code(session_id: int) -> str | None:
+def extract_last_agent_code(session_id: str) -> str | None:
     file_path = get_logger(session_id).console.file.name
     text = Path(file_path).read_text(encoding="utf-8", errors="replace")
     match = re.findall(
@@ -25,7 +25,7 @@ def extract_last_agent_code(session_id: int) -> str | None:
     return dedent(match[-1]).strip()
 
 
-def get_logger(session_id: int) -> AgentLogger:
+def get_logger(session_id: str) -> AgentLogger:
     global loggers
     if session_id not in loggers:
         if HydraConfig.initialized():
@@ -48,7 +48,7 @@ def get_logger(session_id: int) -> AgentLogger:
 
 
 def run_codeagent(
-    cfg: DictConfig, system_prompt: str, query: str, session_id: int = 0
+    cfg: DictConfig, system_prompt: str, query: str, session_id: str = "0"
 ) -> str:
     model = OpenAIModel(model_id=cfg.model.name, api_key=cfg.model.api_key)
     agent = CodeAgent(
