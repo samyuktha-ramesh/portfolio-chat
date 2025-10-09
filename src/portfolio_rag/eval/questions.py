@@ -1,4 +1,4 @@
-questions = {
+QUESTIONS = {
     "basic": [
         "How many loan exposures do I have in the portfolio?",
         "What is the total exposure of the portfolio? What is the total collateral market value of the portfolio?",
@@ -14,14 +14,14 @@ questions = {
         "Are there any properties in the same street?",
     ],
     "complex": [
-        f"Corporate client exposures make up which % of the total exposure?",
+        "Corporate client exposures make up which % of the total exposure?",
         "How many properties do I have in alpine regions? What is the total collateral value and corresponding exposure for each region?",
         "How many clients have more than one loan? Are they secured by the same property or different? Calculate the LtV for all loans across the portfolio.",
         "From a regional (address-based) concentration perspective, can you identify any collateral value concentrations? How much exposure is behind this?",
         "Of all clients without loans, which have the top 10 incomes?",
     ],
     "very advanced": [
-        f"If each loan in the portfolio earns me 1% interest income annually, under a moderate interest rate shock, how much less interest income would I receive annually, taking into account the type of loan – i.e. fix/rollover/floating?",
+        "If each loan in the portfolio earns me 1% interest income annually, under a moderate interest rate shock, how much less interest income would I receive annually, taking into account the type of loan – i.e. fix/rollover/floating?",
         "What is the average duration of the portfolio (Duration is the number of years to expiry, weighted by Loan amount)?",
         "What is the expected loss of the portfolio? In a global downturn similar to the 2008 Financial Crisis, by how much could the expected loss of the portfolio increase?",
         "Looking at the entire portfolio, where do the biggest risks lie?",

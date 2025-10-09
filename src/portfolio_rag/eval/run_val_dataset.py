@@ -1,15 +1,16 @@
+# ruff: noqa: E402
 from dotenv import load_dotenv
+
 load_dotenv()
+
+import csv
+import re
+from datetime import datetime
 
 import hydra
 from omegaconf import DictConfig
 
-from portfolio_rag.agents.codeagent import run_codeagent
-
-import csv
-from datetime import datetime
-import re
-import os
+from portfolio_rag.agents import run_codeagent
 
 
 def run_query(cfg: DictConfig, query: str) -> str:
@@ -17,6 +18,7 @@ def run_query(cfg: DictConfig, query: str) -> str:
         cfg,
         system_prompt=cfg.tools.query_portfolio_analyst.backend.system_prompt,
         query=query,
+        session_id=0,
     )
 
 
@@ -31,7 +33,9 @@ def extract_largest_number(text: str):
 def is_equal(a, b, tol=1e-2):
     return abs(a - b) <= tol
 
+
 CHUNK_SIZE = 20  # adjust as you like
+
 
 @hydra.main(config_path="configs", config_name="config", version_base="1.3")
 def run_dataset(cfg: DictConfig):
@@ -39,13 +43,23 @@ def run_dataset(cfg: DictConfig):
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     OUTPUT_PATH = f"results_{ts}.csv"
 
-    fieldnames = ["N", "n", "C", "Q", "A", "agent_answer", "extracted_number", "Correct"]
+    fieldnames = [
+        "N",
+        "n",
+        "C",
+        "Q",
+        "A",
+        "agent_answer",
+        "extracted_number",
+        "Correct",
+    ]
 
     buffer = []
 
-    with open(INPUT_PATH, newline="", encoding="utf-8", errors="replace") as fin, \
-        open(OUTPUT_PATH, "w", newline="", encoding="utf-8") as fout:
-
+    with (
+        open(INPUT_PATH, newline="", encoding="utf-8", errors="replace") as fin,
+        open(OUTPUT_PATH, "w", newline="", encoding="utf-8") as fout,
+    ):
         reader = csv.DictReader(fin)
         writer = csv.DictWriter(fout, fieldnames=fieldnames)
         writer.writeheader()
@@ -65,16 +79,20 @@ def run_dataset(cfg: DictConfig):
 
                 correct = is_equal(extracted, gold) if (extracted and gold) else False
 
-                row_out = {**row,
-                           "agent_answer": answer,
-                           "extracted_number": extracted,
-                           "Correct": correct}
+                row_out = {
+                    **row,
+                    "agent_answer": answer,
+                    "extracted_number": extracted,
+                    "Correct": correct,
+                }
             except Exception as e:
                 print(f"Error on row {i}: {e}")
-                row_out = {**row,
-                           "agent_answer": f"ERROR: {e}",
-                           "extracted_number": None,
-                           "Correct": False}
+                row_out = {
+                    **row,
+                    "agent_answer": f"ERROR: {e}",
+                    "extracted_number": None,
+                    "Correct": False,
+                }
 
             buffer.append(row_out)
 
@@ -89,6 +107,7 @@ def run_dataset(cfg: DictConfig):
             fout.flush()
 
     print(f"Saved results to {OUTPUT_PATH}")
+
 
 if __name__ == "__main__":
     run_dataset()

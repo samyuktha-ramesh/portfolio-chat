@@ -3,15 +3,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+import csv
+from datetime import datetime
+
 import hydra
 from omegaconf import DictConfig
 
-from portfolio_rag.agents.codeagent import run_codeagent
-
-
-import csv
-from datetime import datetime
-from portfolio_rag.questions import questions
+from portfolio_rag.agents import run_codeagent
+from portfolio_rag.eval.questions import QUESTIONS
 
 
 def run_query(cfg: DictConfig, query: str) -> str:
@@ -21,22 +20,26 @@ def run_query(cfg: DictConfig, query: str) -> str:
         query=query,
     )
 
+
 @hydra.main(config_path="configs", config_name="config", version_base="1.3")
 def run_dataset(cfg: DictConfig):
     RUNS = 3
     OUTPUT_PATH = None
     rows = []
-    for level, qs in questions.items():
+
+    for level, qs in QUESTIONS.items():
         for query in qs:
             for run in range(RUNS):
-                print(f"Running query at {level} level (run {run+1}): {query}")
+                print(f"Running query at {level} level (run {run + 1}): {query}")
                 answer = run_query(cfg, query)
-                rows.append({
-                    "difficulty": level,
-                    "query": query,
-                    "run": run + 1,
-                    "answer": answer,
-                })
+                rows.append(
+                    {
+                        "difficulty": level,
+                        "query": query,
+                        "run": run + 1,
+                        "answer": answer,
+                    }
+                )
 
     # add timestamped file if not specified
     if OUTPUT_PATH is None:
@@ -49,6 +52,7 @@ def run_dataset(cfg: DictConfig):
         writer.writerows(rows)
 
     print(f"Saved results to {OUTPUT_PATH}")
+
 
 if __name__ == "__main__":
     run_dataset()

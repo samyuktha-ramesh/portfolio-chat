@@ -4,6 +4,7 @@ from hydra.utils import call
 from omegaconf import DictConfig
 
 from portfolio_rag.agents import run_codeagent, run_websearch_qa
+from portfolio_rag.agents.codeagent import extract_last_agent_code
 
 
 def orchestrate(
@@ -18,12 +19,18 @@ def orchestrate(
 
         match engine:
             case "codeagent":
-                return run_codeagent(
+                result = run_codeagent(
                     cfg,
                     system_prompt=backend.system_prompt,
                     session_id=session_id,
                     **kwargs,
                 )
+                code = extract_last_agent_code(session_id)
+                if code:
+                    result += (
+                        f"\n\nThe following code was executed:\n```python\n{code}\n```"
+                    )
+                return result
             case "websearch_qa":
                 return run_websearch_qa(
                     cfg, system_prompt=backend.system_prompt, **kwargs
