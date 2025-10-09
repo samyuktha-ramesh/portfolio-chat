@@ -25,6 +25,13 @@ This repository contains a robust framework for retrieving and processing tabula
 
 3. Copy `.env.example` to `.env` and update the environment variables as needed.
 
+4. (Optional) if you want to make contributions, set up pre-commit hooks:
+
+    ```bash
+    uv add pre-commit  # or: pip install pre-commit
+    pre-commit install
+    ```
+
 ## Usage
 
 Once the dependencies are installed and the data files are in place, you can chat with the model using the command line interface (CLI).
