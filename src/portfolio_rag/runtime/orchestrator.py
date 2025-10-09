@@ -6,7 +6,9 @@ from omegaconf import DictConfig
 from portfolio_rag.agents import run_codeagent, run_websearch_qa
 
 
-def orchestrate(function: str, cfg: DictConfig, spinner_context, **kwargs: Any) -> str:
+def orchestrate(
+    function: str, cfg: DictConfig, session_id: int, spinner_context, **kwargs: Any
+) -> str:
     with spinner_context("Analyzing..."):
         if function not in cfg.tools:
             return "Tool not found."
@@ -16,7 +18,12 @@ def orchestrate(function: str, cfg: DictConfig, spinner_context, **kwargs: Any) 
 
         match engine:
             case "codeagent":
-                return run_codeagent(cfg, system_prompt=backend.system_prompt, **kwargs)
+                return run_codeagent(
+                    cfg,
+                    system_prompt=backend.system_prompt,
+                    session_id=session_id,
+                    **kwargs,
+                )
             case "websearch_qa":
                 return run_websearch_qa(
                     cfg, system_prompt=backend.system_prompt, **kwargs

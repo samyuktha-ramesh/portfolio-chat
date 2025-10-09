@@ -3,6 +3,7 @@ from collections.abc import Generator
 from contextlib import ExitStack, nullcontext
 from typing import Any, Literal
 
+from hydra import compose, initialize
 from omegaconf import DictConfig
 from openai import OpenAI
 
@@ -16,10 +17,36 @@ class ChatSession:
 
     Args:
         cfg (DictConfig): The configuration object containing API settings and prompts.
+        overrides (list[str], optional): List of configuration overrides. Defaults to None.
+        session_id (int, optional): The session ID for logging purposes. Defaults to 0
+
+    Attributes:
+        cfg (DictConfig): The configuration object.
+        session_id (int): The session ID for logging purposes.
+        client (OpenAI): The OpenAI API client.
+        model (str): The model name to use for the API.
+        gen_kwargs (dict): Additional generation keyword arguments for the API call.
+        tools (list): The list of tool specifications loaded from the configuration.
+        history (list): The chat history, including system prompts and user messages.
+
+    Raises:
+        ValueError: If both cfg and overrides are provided.
     """
 
-    def __init__(self, cfg: DictConfig):
+    def __init__(
+        self,
+        cfg: DictConfig | None = None,
+        overrides: list[str] | None = None,
+        session_id: int = 0,
+    ):
+        if cfg is None:
+            with initialize(config_path="../configs", version_base="1.3"):
+                cfg = compose(config_name="config", overrides=overrides)
+        elif overrides is not None:
+            raise ValueError("Cannot provide both cfg and overrides")
+
         self.cfg = cfg
+        self.session_id = session_id
         self.client = OpenAI(base_url=cfg.model.base_url, api_key=cfg.model.api_key)
 
         self.model = cfg.model.name
@@ -41,11 +68,6 @@ class ChatSession:
 
         Args:
             prompt (str): The user prompt to send to the API.
-            on_text (Callable[[str], None]): A callback function to handle streaming tokens.
-            on_tool_start (Callable[[str], None]): A callback function to handle tool start events.
-            on_tool_args (Callable[[str], None]): A callback function to handle tool arguments.
-            on_tool_request (Callable[[], None]): A callback function to handle tool requests.
-            on_tool_output (Callable[[str], None]): A callback function to handle tool responses.
             spinner_cm: A context manager for managing the spinner.
         """
         spinner_cm = spinner_cm or nullcontext
@@ -141,7 +163,11 @@ class ChatSession:
             Dict[str, Any]: The tool's response to be appended to the history.
         """
         result = orchestrate(
-            tool_name, self.cfg, spinner_context=spinner_context, **kwargs
+            tool_name,
+            self.cfg,
+            self.session_id,
+            spinner_context=spinner_context,
+            **kwargs,
         )
         history_item = {
             "type": "custom_tool_call_output" if custom else "function_call_output",

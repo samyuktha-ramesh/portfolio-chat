@@ -57,7 +57,10 @@ top_headlines:
       category: business
 
 web_search:
-  description: Keyword-based web search for relevant news articles. Use less than 3 keywords for best results.
+  description: >
+    Keyword-based web search for relevant news articles. Use less than 3 keywords for best results. Only look for keyword nouns, e.g. "china", "inflation", "interest rates", not 
+    "china news", "latest on inflation", "interest rates update". If the user query contains more than 3 keywords, pick the 3 most relevant ones. Use as few keywords as possible 
+    to get the most relevant results.
   type: custom
   backend:
     engine: callable
