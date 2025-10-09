@@ -18,7 +18,6 @@ def run_query(cfg: DictConfig, query: str) -> str:
         cfg,
         system_prompt=cfg.tools.query_portfolio_analyst.backend.system_prompt,
         query=query,
-        session_id=0,
     )
 
 

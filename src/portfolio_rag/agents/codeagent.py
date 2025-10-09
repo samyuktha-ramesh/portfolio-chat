@@ -31,7 +31,7 @@ def get_logger(session_id: str) -> AgentLogger:
         if HydraConfig.initialized():
             wd = HydraConfig.get().runtime.output_dir
         else:
-            wd = "."
+            wd = "outputs"
 
         file_path = f"{wd}/{session_id}/"
         os.makedirs(file_path, exist_ok=True)
