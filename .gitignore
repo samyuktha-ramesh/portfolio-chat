@@ -22,3 +22,6 @@ multirun/
 # Proprietary Data
 data/*
 !data/.gitkeep
+
+# Cache files
+.*cache/

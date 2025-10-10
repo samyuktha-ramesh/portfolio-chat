@@ -4,6 +4,7 @@ from contextlib import ExitStack, nullcontext
 from typing import Any, Literal
 
 from hydra import compose, initialize
+from hydra.core.global_hydra import GlobalHydra
 from omegaconf import DictConfig
 from openai import OpenAI
 
@@ -31,8 +32,11 @@ class ChatSession:
         session_id: str = "0",
     ):
         if cfg is None:
-            with initialize(config_path="../configs", version_base="1.3"):
+            if GlobalHydra.instance().is_initialized():
                 cfg = compose(config_name="config", overrides=overrides)
+            else:
+                with initialize(config_path="../configs", version_base="1.3"):
+                    cfg = compose(config_name="config", overrides=overrides)
         elif overrides is not None:
             raise ValueError("Cannot provide both cfg and overrides")
 
