@@ -55,6 +55,7 @@ def run_codeagent(
         tools=[],
         model=model,
         add_base_tools=True,
+        use_structured_outputs_internally=True,
         additional_authorized_imports=["csv", "pandas", "pgeocode", "numpy"],
         logger=get_logger(session_id),
     )
