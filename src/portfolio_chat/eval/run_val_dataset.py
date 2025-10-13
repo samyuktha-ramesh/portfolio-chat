@@ -10,7 +10,7 @@ from datetime import datetime
 import hydra
 from omegaconf import DictConfig
 
-from portfolio_rag.agents import run_codeagent
+from portfolio_chat.agents import run_codeagent
 
 
 def run_query(cfg: DictConfig, query: str) -> str:

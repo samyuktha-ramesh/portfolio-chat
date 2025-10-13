@@ -3,8 +3,8 @@ from typing import Any
 from hydra.utils import call
 from omegaconf import DictConfig
 
-from portfolio_rag.agents import run_codeagent, run_websearch_qa
-from portfolio_rag.agents.codeagent import extract_last_agent_code
+from portfolio_chat.agents import run_codeagent, run_websearch_qa
+from portfolio_chat.agents.codeagent import extract_last_agent_code
 
 
 def orchestrate(

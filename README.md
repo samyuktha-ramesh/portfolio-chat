@@ -2,7 +2,7 @@
 
 Modern Large Language Models (LLMs) are extremely capable of creative tasks and reasoning, however often struggle with grounding their responses in external knowledge. This is where Retrieval-Augmented Generation (RAG) comes in. Traditional RAG approaches involve retrieving relevant documents or data from a knowledge base and using that information to inform the model's responses. However, tabular data presents unique challenges for RAG: The structure and format of tabular data can make it difficult for LLMs to interpret and utilize effectively. 
 
-This repository contains a robust framework for retrieving and processing tabular data to enhance the capabilities of LLMs. We introduce `portfolio-rag`, a specialized tool for working with tabular portfolio data. However, this approach generalizes to all tabular data use cases. Developed as part of the [ETH Zurich FinsureTech Hub Innovation Project](https://finsuretech.ethz.ch/continuing-education/cas-ml-in-finance-and-insurance/innovation-projects.html) in collaboration with [PwC Switzerland](https://www.pwc.ch/).
+This repository contains a robust framework for retrieving and processing tabular data to enhance the capabilities of LLMs. We introduce `portfolio-chat`, a specialized tool for working with tabular portfolio data. However, this approach generalizes to all tabular data use cases. Developed as part of the [ETH Zurich FinsureTech Hub Innovation Project](https://finsuretech.ethz.ch/continuing-education/cas-ml-in-finance-and-insurance/innovation-projects.html) in collaboration with [PwC Switzerland](https://www.pwc.ch/).
 
 ## Installation
 
@@ -54,6 +54,6 @@ The following commands are available:
 
 ## Configuration
 
-This project uses `Hydra` for configuration management. Please refer to the [Hydra documentation](https://hydra.cc/docs/intro/) for more information on how to configure your application. The configuration files are located in the `src\portfolio_rag\configs` directory.
+This project uses `Hydra` for configuration management. Please refer to the [Hydra documentation](https://hydra.cc/docs/intro/) for more information on how to configure your application. The configuration files are located in the `src\portfolio_chat\configs` directory.
 
 The configuration defines models, prompts, and other settings for the application.

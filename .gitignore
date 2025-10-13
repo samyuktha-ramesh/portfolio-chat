@@ -22,6 +22,7 @@ multirun/
 # Proprietary Data
 data/*
 !data/.gitkeep
+self-consistency_results/*
 
 # Cache files
 .*cache/

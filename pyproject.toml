@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 github = "https://github.com/samyuktha-ramesh/portfolio-chat"
 
 [project]
-name = "portfolio-rag"
+name = "portfolio-chat"
 version = "0.1.0"
 description = "Tabular data retrieval augmented generation."
 authors = [
@@ -47,7 +47,7 @@ include-package-data = true
 where = ["src"]
 
 [project.scripts]
-portfolio-chat = "portfolio_rag.cli:main"
+portfolio-chat = "portfolio_chat.cli:main"
 
 [tool.ruff]
 target-version = "py311"
@@ -58,7 +58,7 @@ select = ["E", "F", "I", "UP", "B"]  # basics: style, flakes, isort, pyupgrade, 
 ignore = ["E501"]                    # let the formatter handle wrapping
 
 [tool.ruff.lint.isort]
-known-first-party = ["portfolio_rag"]
+known-first-party = ["portfolio_chat"]
 
 [tool.mypy]
 python_version = "3.11"
