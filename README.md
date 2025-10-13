@@ -1,5 +1,5 @@
-<span style="font-size:2em; font-weight:600;">Portfolio Chat</span>
-<img src="assets/portfolio_logo.png" alt="Portfolio Chat Logo" height="48" style="vertical-align:top; margin-left:6px;">
+<h1>Portfolio Chat
+    <img src="assets/portfolio_logo.png" alt="Portfolio Chat Logo" height="40" style="margin-left:6px;"></h1>
 
 [![CI](https://github.com/samyuktha-ramesh/portfolio-chat/actions/workflows/ci.yml/badge.svg)](https://github.com/samyuktha-ramesh/portfolio-chat/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-≥3.13-purple.svg)](https://www.python.org/)
