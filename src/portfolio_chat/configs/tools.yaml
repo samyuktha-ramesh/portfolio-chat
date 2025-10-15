@@ -47,12 +47,12 @@ stress_test:
   backend: stress_test
 
 top_headlines:
-  description: Fetches top financial and business news headlines.
+  description: Fetches top financial and business news headlines. Multiple calls of this tool return the same headlines.
   type: function
   backend:
     engine: callable
     callable:
-      _target_: portfolio_rag.tools.websearch.top_headlines
+      _target_: portfolio_chat.tools.websearch.top_headlines
       api_key: ${oc.env:GNEWS_API_KEY}
       category: business
 
@@ -65,5 +65,5 @@ web_search:
   backend:
     engine: callable
     callable:
-      _target_: portfolio_rag.tools.websearch.webquery
+      _target_: portfolio_chat.tools.websearch.webquery
       api_key: ${oc.env:GNEWS_API_KEY}
