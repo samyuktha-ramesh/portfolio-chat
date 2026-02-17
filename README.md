@@ -1,5 +1,5 @@
-<span style="font-size:2em; font-weight:600;">Portfolio Chat</span>
-<img src="assets/portfolio_logo.png" alt="Portfolio Chat Logo" height="48" style="vertical-align:top; margin-left:6px;">
+<h1>Portfolio Chat
+    <img src="assets/portfolio_logo.png" alt="Portfolio Chat Logo" height="40" style="margin-left:6px;"></h1>
 
 [![CI](https://github.com/samyuktha-ramesh/portfolio-chat/actions/workflows/ci.yml/badge.svg)](https://github.com/samyuktha-ramesh/portfolio-chat/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-≥3.13-purple.svg)](https://www.python.org/)
@@ -8,7 +8,7 @@
 
 Modern Large Language Models (LLMs) are extremely capable of creative tasks and reasoning, however often struggle with grounding their responses in external knowledge. Traditional RAG approaches involve retrieving relevant documents or data from a knowledge base and using that information to inform the model's responses. However, tabular data presents unique challenges for RAG: The structure and format of tabular data can make it difficult for LLMs to interpret and utilize effectively. 
 
-This repository contains a robust framework for retrieving and processing tabular data to enhance the capabilities of LLMs. We introduce portfolio-chat, a specialized tool for working with tabular portfolio data. However, this approach generalizes to all tabular data use cases. Developed as part of the [ETH Zurich FinsureTech Hub Innovation Project](https://finsuretech.ethz.ch/continuing-education/cas-ml-in-finance-and-insurance/innovation-projects.html) in collaboration with [PwC Switzerland](https://www.pwc.ch/).
+This repository contains a robust framework for retrieving and processing tabular data to enhance the capabilities of LLMs. We introduce portfolio-chat, a specialized tool for working with tabular portfolio data. However, this approach generalizes to all tabular data use cases. Developed as part of the [ETH Zurich FinsureTech Hub Innovation Project](https://finsuretech.ethz.ch/continuing-education/cas-ml-in-finance-and-insurance/innovation-projects.html) in collaboration with Cristian Montillo and Raymond Angelil from [PwC Switzerland](https://www.pwc.ch/).
 
 ## Overview
 

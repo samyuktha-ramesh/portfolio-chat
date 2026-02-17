@@ -37,7 +37,7 @@ dev = [
 ]
 
 [tool.setuptools.package-data]
-portfolio_rag = ["configs/*.yaml", "configs/**/*.yaml"]
+portfolio_chat = ["configs/*.yaml", "configs/**/*.yaml"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
